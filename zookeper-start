@@ -1,0 +1,1 @@
+bash ~/dev/apache/kafka_2.11-1.0.1/bin/zookeeper-server-start.sh ~/dev/apache/kafka_2.11-1.0.1/config/zookeeper.properties 
