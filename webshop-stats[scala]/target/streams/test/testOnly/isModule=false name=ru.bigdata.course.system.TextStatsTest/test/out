@@ -1,0 +1,3 @@
+[0m[[0minfo[0m] [0m[32mSuite Starting - TextStatsTest[0m[0m
+[0m[[0minfo[0m] [0m[31mSUITE ABORTED - TextStatsTest: Array("POSSIBLE") did not equal Array("POSSIBLE") (138 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[31m  Array("POSSIBLE") did not equal Array("POSSIBLE") (TextStatsTest.scala:31)[0m[0m

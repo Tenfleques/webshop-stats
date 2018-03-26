@@ -1,0 +1,32 @@
+{
+    "output" :{
+        "destination": "fs",
+        "fs" : {
+            "file" : "purchases.json",
+            "path" : "../webshop-stats/resources/"
+        },
+        "kafka": {
+            "host": "localhost",
+            "port": "2181",
+            "topic": "clients-purchases",
+            "timer":{
+                "delay":{
+                  "avg":3000,
+                  "spread":2000
+                }
+            }
+        }        
+    },
+    "purchases" : {
+        "max" : 1,
+        "min" : 0,
+        "iterations" : 1
+    },
+    "stock": {
+        "path" : "resources/stock.json"
+    },
+    "Csv":{
+        "delimiter": ",",
+        "key": "_id"
+    }
+}

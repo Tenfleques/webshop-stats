@@ -1,0 +1,164 @@
+hello
+time()
+print(hello")
+print("hello")
+println("hello")
+run
+compile
+run
+compile
+ls
+run
+run "file" "hdfs://user/file"
+run
+sbt run
+run
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+run
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+run
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /tmp/sbt-structure.xml; session clear-all
+run
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+initialize
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:testOptions
+set testOptions.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test+=Tests.Argument(TestFrameworks.ScalaTest, "-oDU")
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=false
+{file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/testOnly ru.bigdata.course.system.TextStatsTest
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=true
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+initialize
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:testOptions
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=false
+{file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/testOnly ru.bigdata.course.system.TextStatsTest
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=true
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+initialize
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:testOptions
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=false
+{file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/testOnly ru.bigdata.course.system.TextStatsTest
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=true
+run
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+initialize
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:testOptions
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=false
+{file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/testOnly ru.bigdata.course.system.TextStatsTest
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=true
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+initialize
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:testOptions
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=false
+{file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/testOnly ru.bigdata.course.system.TextStatsTest
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=true
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+initialize
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:testOptions
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=false
+{file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/testOnly ru.bigdata.course.system.TextStatsTest
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=true
+18/03/17 18:52:17 INFO SparkUI: Stopped Spark web UI at http://192.168.1.3:4043
+18/03/17 18:52:17 INFO SparkUI: Stopped Spark web UI at http://192.168.1.3:4040
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+initialize
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:testOptions
+set testOptions.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test+=Tests.Argument(TestFrameworks.ScalaTest, "-oDU")
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=false
+{file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/testOnly ru.bigdata.course.system.TextStatsTest
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=true
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+initialize
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:testOptions
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=false
+{file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/testOnly ru.bigdata.course.system.TextStatsTest
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=true
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+initialize
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:testOptions
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=false
+{file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/testOnly ru.bigdata.course.system.TextStatsTest
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=true
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+initialize
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:testOptions
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=false
+{file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/testOnly ru.bigdata.course.system.TextStatsTest
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=true
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+initialize
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:testOptions
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=false
+{file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/testOnly ru.bigdata.course.system.TextStatsTest
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=true
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+initialize
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:testOptions
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=false
+{file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/testOnly ru.bigdata.course.system.TextStatsTest
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=true
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+initialize
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:testOptions
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:parallelExecution
+initialize
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=false
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:testOptions
+{file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/testOnly ru.bigdata.course.system.TextStatsTest
+set testOptions.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test+=Tests.Argument(TestFrameworks.ScalaTest, "-oDU")
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:parallelExecution
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=false
+{file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/testOnly ru.bigdata.course.system.TextStatsTest
+set testOptions.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=true
+set parallelExecution.in(ProjectRef(uri("file:/home/blackjack/dev/scala/BigDataSchool2018/"), "bigdataschool2018")) in Test:=* Argument(Some(TestFramework(WrappedArray(org.scalatest.tools.Framework, org.scalatest.tools.ScalaTestFramework))),List(-oDU))
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+initialize
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:testOptions
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:parallelExecution
+{file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/testOnly ru.bigdata.course.system.TextStatsTest
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+initialize
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:testOptions
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:parallelExecution
+{file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/testOnly ru.bigdata.course.system.TextStatsTest
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+initialize
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:testOptions
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:parallelExecution
+{file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/testOnly ru.bigdata.course.system.TextStatsTest
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+initialize
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:testOptions
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:parallelExecution
+{file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/testOnly ru.bigdata.course.system.TextStatsTest
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+initialize
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:testOptions
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:parallelExecution
+{file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/testOnly ru.bigdata.course.system.TextStatsTest
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+initialize
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:testOptions
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:parallelExecution
+{file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/testOnly ru.bigdata.course.system.TextStatsTest
+all {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/products {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:products
+initialize
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:testOptions
+show {file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/test:parallelExecution
+{file:/home/blackjack/dev/scala/BigDataSchool2018/}bigdataschool2018/testOnly ru.bigdata.course.system.TextStatsTest
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /tmp/sbt-structure.xml; session clear-all
+run
+rn
+run
