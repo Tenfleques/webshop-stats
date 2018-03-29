@@ -1,24 +1,9 @@
-java.lang.IllegalArgumentException: Cannot add dependency 'org.apache.spark#spark-streaming-kafka-0-10_2.11;2.3.0' to configuration 'compiles' of module default#web-shop-stats_2.11;1.0 because this configuration doesn't exist!
-	at org.apache.ivy.core.module.descriptor.DefaultDependencyDescriptor.addDependencyConfiguration(DefaultDependencyDescriptor.java:565)
-	at org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser$AbstractParser.parseDepsConfs(AbstractModuleDescriptorParser.java:157)
-	at org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser$AbstractParser.parseDepsConfs(AbstractModuleDescriptorParser.java:128)
-	at org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser$AbstractParser.parseDepsConfs(AbstractModuleDescriptorParser.java:118)
-	at org.apache.ivy.plugins.parser.AbstractModuleDescriptorParser$AbstractParser.parseDepsConfs(AbstractModuleDescriptorParser.java:113)
-	at sbt.CustomXmlParser$CustomParser.parseDepsConfs(CustomXmlParser.scala:32)
-	at sbt.IvySbt$.convertDependency(Ivy.scala:629)
-	at sbt.IvySbt$$anonfun$10.apply(Ivy.scala:578)
-	at sbt.IvySbt$$anonfun$10.apply(Ivy.scala:578)
-	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244)
-	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244)
-	at scala.collection.immutable.List.foreach(List.scala:318)
-	at scala.collection.TraversableLike$class.map(TraversableLike.scala:244)
-	at scala.collection.AbstractTraversable.map(Traversable.scala:105)
-	at sbt.IvySbt$.addDependencies(Ivy.scala:578)
-	at sbt.IvySbt$Module.configureInline(Ivy.scala:208)
-	at sbt.IvySbt$Module.x$7$lzycompute(Ivy.scala:172)
-	at sbt.IvySbt$Module.x$7(Ivy.scala:167)
-	at sbt.IvySbt$Module.sbt$IvySbt$Module$$moduleDescriptor0$lzycompute(Ivy.scala:167)
-	at sbt.IvySbt$Module.sbt$IvySbt$Module$$moduleDescriptor0(Ivy.scala:167)
+sbt.ResolveException: unresolved dependency: org.apache.spark#spark-core_2.12;2.3.0: not found
+unresolved dependency: org.apache.spark#spark-sql_2.12;2.3.0: not found
+unresolved dependency: org.apache.spark#spark-streaming_2.12;2.3.0: not found
+	at sbt.IvyActions$.sbt$IvyActions$$resolve(IvyActions.scala:320)
+	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:191)
+	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:168)
 	at sbt.IvySbt$Module$$anonfun$withModule$1.apply(Ivy.scala:156)
 	at sbt.IvySbt$Module$$anonfun$withModule$1.apply(Ivy.scala:156)
 	at sbt.IvySbt$$anonfun$withIvy$1.apply(Ivy.scala:133)
@@ -66,4 +51,6 @@ java.lang.IllegalArgumentException: Cannot add dependency 'org.apache.spark#spar
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-[error] (*:ssExtractDependencies) java.lang.IllegalArgumentException: Cannot add dependency 'org.apache.spark#spark-streaming-kafka-0-10_2.11;2.3.0' to configuration 'compiles' of module default#web-shop-stats_2.11;1.0 because this configuration doesn't exist!
+[error] (*:ssExtractDependencies) sbt.ResolveException: unresolved dependency: org.apache.spark#spark-core_2.12;2.3.0: not found
+[error] unresolved dependency: org.apache.spark#spark-sql_2.12;2.3.0: not found
+[error] unresolved dependency: org.apache.spark#spark-streaming_2.12;2.3.0: not found
