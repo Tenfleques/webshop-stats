@@ -2,30 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1553a101-a9f1-439c-a4e2-571b1a965eaa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_8_7_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_8_7_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_8_7_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_scala_logging_scala_logging_2_11_3_1_0_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/logback.xml" />
       <change beforePath="$PROJECT_DIR$/../clients-simulator/config.json" afterPath="$PROJECT_DIR$/../clients-simulator/config.json" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[java]/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../webshop-stats[java]/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_6_7_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_7_9_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_6_7_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_paranamer_2_7_9_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_paranamer_2_8_7_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_6_7_1_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_8_7_jar.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_jpountz_lz4_lz4_1_3_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_kafka_kafka_clients_0_10_0_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_5_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_11_3_0_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_11_3_0_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_xerial_snappy_snappy_java_1_1_2_6_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_3_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_1_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_compiler_2_11_5_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_compiler_2_11_0_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_5_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_0_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_11_5_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_11_0_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scalap_2_11_5_jar.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scalap_2_11_0_jar.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/webshop-stats-scala-.iml" afterPath="$PROJECT_DIR$/.idea/modules/webshop-stats-scala-.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8cf66a352059dd428471.class" afterPath="$PROJECT_DIR$/project/target/config-classes/$8cf66a352059dd428471.class" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d3c15d834070018da105$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d3c15d834070018da105$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d3c15d834070018da105.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d3c15d834070018da105.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8cf66a352059dd428471$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8cf66a352059dd428471$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8cf66a352059dd428471.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8cf66a352059dd428471.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f0c46db664b549d4c814$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f0c46db664b549d4c814$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f0c46db664b549d4c814.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f0c46db664b549d4c814.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-compile-internal.xml" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-compile.xml" />
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-docs.xml" />
@@ -43,26 +38,42 @@
       <change beforePath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/webshop-stats-scala-build/webshop-stats-scala-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.10/sbt-0.13/resolution-cache/webshop-stats-scala-build/webshop-stats-scala-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change beforePath="$PROJECT_DIR$/resources/test/stopwords.txt" afterPath="$PROJECT_DIR$/resources/test/stopwords.txt" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/bigdata/project/system/Application.scala" afterPath="$PROJECT_DIR$/src/main/scala/bigdata/project/system/Application.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/bigdata/project/system/DateIncidenceStats.scala" afterPath="$PROJECT_DIR$/src/main/scala/bigdata/project/system/DateIncidenceStats.scala" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/bigdata/project/system/KafkaSink.scala" afterPath="$PROJECT_DIR$/src/main/scala/bigdata/project/system/KafkaSink.scala" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/bigdata/project/system/RefereeStats.scala" afterPath="$PROJECT_DIR$/src/main/scala/bigdata/project/system/RefereeStats.scala" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/Application$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/Application$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/Application.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/Application.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats$$anonfun$1.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats$$anonfun$2.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats$$anonfun$3.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats$$anonfun$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats$$anonfun$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats$$anonfun$6.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats$$anonfun$7.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats$$anonfun$7.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats$$anonfun$8.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats$$anonfun$8.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/ItemIncidenceStats$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/ItemIncidenceStats$$anonfun$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/ItemIncidenceStats$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/ItemIncidenceStats$$anonfun$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/ItemIncidenceStats$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/ItemIncidenceStats$$anonfun$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/ItemIncidenceStats$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/ItemIncidenceStats$$anonfun$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/ItemIncidenceStats.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/ItemIncidenceStats.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/KafkaSink.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/KafkaSink.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$5.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$6.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$7.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$7.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/package$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/package.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/Pipe$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/Pipe$$anonfun$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/Pipe.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/Pipe.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/PlatformStats$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/PlatformStats$$anonfun$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/PlatformStats$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/PlatformStats$$anonfun$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/PlatformStats$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/PlatformStats$$anonfun$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/PlatformStats$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/PlatformStats$$anonfun$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/PlatformStats.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/PlatformStats.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$7.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$runStats$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-compile-internal.xml" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-compile.xml" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-docs.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-docs.xml" />
@@ -93,9 +104,26 @@
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/web-shop-stats/web-shop-stats$sources_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/web-shop-stats/web-shop-stats$sources_2.11/1.0/resolved.xml.xml" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/web-shop-stats/web-shop-stats_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/web-shop-stats/web-shop-stats_2.11/1.0/resolved.xml.properties" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/web-shop-stats/web-shop-stats_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/web-shop-stats/web-shop-stats_2.11/1.0/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-docs.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-docs.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-sources.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-sources.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/web-shop-stats-web-shop-stats_2.12-test.xml" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/web-shop-stats/web-shop-stats_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/web-shop-stats/web-shop-stats_2.12/1.0/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/web-shop-stats/web-shop-stats_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/web-shop-stats/web-shop-stats_2.12/1.0/resolved.xml.xml" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
@@ -103,16 +131,13 @@
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/run/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/run/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
@@ -128,6 +153,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/web_shop_stats$run_stats.coverage" NAME="run-stats Coverage Results" MODIFIED="1522595796625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -141,7 +169,7 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="bigdata.project" type="f1a62948:ProjectNode" />
+                <item name="web-shop-stats" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -152,23 +180,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Application.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Application.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/Application.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RefereeStats.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RefereeStats.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/RefereeStats.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+              <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
               <folding>
-                <element signature="e#32#95#0" expanded="true" />
+                <element signature="e#32#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,28 +205,18 @@
       <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="135">
+              <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pipe.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/Pipe.scala">
+      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
-              <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemIncidenceStats.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/ItemIncidenceStats.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-387">
-              <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="56" />
+            <state relative-caret-position="300">
+              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -239,14 +257,23 @@
         <option value="$PROJECT_DIR$/src/main/scala/bigdata/project/system/MostViewedItem.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/bigdata/project/system/ItemIncidenceStats.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/bigdata/project/system/package.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/bigdata/project/system/KafkaSink.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/bigdata/project/system/DateIncidenceStats.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/bigdata/project/system/ItemIncidenceStatsScala.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/bigdata/project/system/KafkaSink.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/bigdata/project/system/Application.scala" />
+        <option value="$PROJECT_DIR$/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/resources/logback.xml" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/bigdata/project/system/RefereeStats.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/bigdata/project/system/Application.scala" />
       </list>
     </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="true" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -292,10 +319,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -355,8 +382,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.scopes" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -384,7 +411,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.app">
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -406,7 +433,9 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="app" type="Application" factoryName="Application">
+    <configuration name="run-stats" type="Application" factoryName="Application">
+      <log_file path="$PROJECT_DIR$/resources/test/stopwords.txt" checked="true" skipped="false" show_all="true" alias="info" />
+      <output_file path="$PROJECT_DIR$/resources/test/stopwords.txt" is_save="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="bigdata.project.system.Application" />
       <option name="VM_PARAMETERS" value="" />
@@ -459,12 +488,6 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="run" type="SbtRunConfiguration" factoryName="sbt Task">
-      <setting name="tasks" value="" />
-      <setting name="vmparams" value="-Xms512M -Xmx1024M -Xss1M -XX:+CMSClassUnloadingEnabled" />
-      <setting name="workingDir" value="$PROJECT_DIR$" />
-      <envs />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -498,13 +521,9 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.app" />
-      <item index="1" class="java.lang.String" itemvalue="sbt Task.run" />
-    </list>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1522568590453" />
+    <option name="lastUpdateTimestamp" value="1522600226247" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -572,21 +591,21 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272059" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272059" sideWeight="0.4966942" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975206" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288201" sideWeight="0.5033058" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40625" sideWeight="0.4966942" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288201" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272059" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272059" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1918429" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20392749" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48161766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272059" sideWeight="0.49338844" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -598,6 +617,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -643,32 +663,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/RefereeStatsFile.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/Application.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/RefereeStats.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding>
-            <element signature="e#32#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/PlatformStats.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="97" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="97" />
-          <folding>
-            <element signature="e#32#95#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,9 +674,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding>
-            <element signature="e#32#95#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -696,7 +692,7 @@
         <state relative-caret-position="480">
           <caret line="32" column="15" lean-forward="false" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
           <folding>
-            <element signature="e#32#95#0" expanded="true" />
+            <element signature="e#32#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -714,7 +710,7 @@
         <state relative-caret-position="390">
           <caret line="26" column="70" lean-forward="false" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
           <folding>
-            <element signature="e#32#95#0" expanded="true" />
+            <element signature="e#32#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -740,7 +736,7 @@
         <state relative-caret-position="390">
           <caret line="26" column="70" lean-forward="true" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
           <folding>
-            <element signature="e#32#95#0" expanded="true" />
+            <element signature="e#32#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -789,13 +785,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/sbt.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/sbt.xml" />
     <entry file="file://$USER_HOME$/scala/BigDataSchool2018/build.sbt" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/ru/bigdata/course/worksheets/Notebook.sc" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/ru/bigdata/course/system/TextStats.scala" />
@@ -838,9 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#32#95#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -853,39 +840,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/ItemIncidenceStatsScala.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/KafkaSink.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding>
-            <element signature="e#31#58#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/ItemIncidenceStatsScala.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/DateIncidenceStats.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#32#95#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/ItemIncidenceStats.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-387">
-          <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -893,22 +852,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="22" column="108" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/Pipe.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/KafkaSink.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="89" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="15" selection-end-column="89" />
+          <folding>
+            <element signature="e#31#58#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/ItemIncidenceStats.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/test/stopwords.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="135">
+          <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/Pipe.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/Application.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -916,18 +922,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/RefereeStats.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           <folding>
-            <element signature="e#32#95#0" expanded="true" />
+            <element signature="e#32#59#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/Application.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -984,12 +982,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>web-shop-stats</last-edited>
+          <last-edited>bigdata</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

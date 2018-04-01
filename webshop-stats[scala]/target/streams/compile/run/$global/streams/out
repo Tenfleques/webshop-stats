@@ -2,7 +2,7 @@
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/dev/apache/kafka_2.11-1.0.1/apps/webshop-stats/webshop-stats[scala]/target/scala-2.11/classes[0m
-[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar[0m
+[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.0.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.3.0.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.apache.avro/avro/jars/avro-1.7.7.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.9.13.jar[0m
@@ -76,6 +76,8 @@
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.apache.spark/spark-tags_2.11/jars/spark-tags_2.11-2.3.0.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.spark-project.spark/unused/jars/unused-1.0.0.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.apache.spark/spark-kvstore_2.11/jars/spark-kvstore_2.11-2.3.0.jar[0m
+[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.8.7.jar[0m
+[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.8.7.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.apache.spark/spark-network-common_2.11/jars/spark-network-common_2.11-2.3.0.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/io.netty/netty-all/jars/netty-all-4.1.17.Final.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.5.jar[0m
@@ -101,10 +103,10 @@
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.json4s/json4s-jackson_2.11/jars/json4s-jackson_2.11-3.2.11.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.json4s/json4s-core_2.11/jars/json4s-core_2.11-3.2.11.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.json4s/json4s-ast_2.11/jars/json4s-ast_2.11-3.2.11.jar[0m
-[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.11.5.jar[0m
-[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.5.jar[0m
-[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.5.jar[0m
-[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.3.jar[0m
+[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.11.0.jar[0m
+[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.0.jar[0m
+[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.0.jar[0m
+[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.glassfish.jersey.core/jersey-client/jars/jersey-client-2.22.2.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/javax.ws.rs/javax.ws.rs-api/jars/javax.ws.rs-api-2.0.1.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.glassfish.jersey.core/jersey-common/jars/jersey-common-2.22.2.jar[0m
@@ -126,8 +128,9 @@
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/io.dropwizard.metrics/metrics-jvm/bundles/metrics-jvm-3.1.5.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/io.dropwizard.metrics/metrics-json/bundles/metrics-json-3.1.5.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/io.dropwizard.metrics/metrics-graphite/bundles/metrics-graphite-3.1.5.jar[0m
-[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.11/bundles/jackson-module-scala_2.11-2.6.7.1.jar[0m
-[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/bundles/jackson-module-paranamer-2.7.9.jar[0m
+[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.11/bundles/jackson-module-scala_2.11-2.8.7.jar[0m
+[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.8.7.jar[0m
+[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-paranamer/bundles/jackson-module-paranamer-2.8.7.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/com.thoughtworks.paranamer/paranamer/bundles/paranamer-2.8.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.apache.ivy/ivy/jars/ivy-2.4.0.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/oro/oro/jars/oro-2.0.8.jar[0m
@@ -161,177 +164,10 @@
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/com.carrotsearch/hppc/bundles/hppc-0.7.2.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.apache.spark/spark-streaming_2.11/jars/spark-streaming_2.11-2.3.0.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.apache.spark/spark-streaming-kafka-0-10_2.11/jars/spark-streaming-kafka-0-10_2.11-2.3.0.jar[0m
-[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.apache.kafka/kafka-streams/jars/kafka-streams-1.1.0.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.apache.kafka/kafka-clients/jars/kafka-clients-1.1.0.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.xerial.snappy/snappy-java/jars/snappy-java-1.1.7.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.apache.kafka/kafka-streams/jars/kafka-streams-1.1.0.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.apache.kafka/connect-json/jars/connect-json-1.1.0.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.apache.kafka/connect-api/jars/connect-api-1.1.0.jar[0m
-[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.9.4.jar[0m
-[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.9.0.jar[0m
-[0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.9.4.jar[0m
 [0m[[0mdebug[0m] [0m	/home/blackjack/.ivy2/cache/org.rocksdb/rocksdbjni/jars/rocksdbjni-5.7.3.jar[0m
 [0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
-[0m[[31merror[0m] [0m(run-main-0) java.lang.ExceptionInInitializerError[0m
-java.lang.ExceptionInInitializerError
-	at org.apache.spark.streaming.dstream.InputDStream.<init>(InputDStream.scala:80)
-	at org.apache.spark.streaming.kafka010.DirectKafkaInputDStream.<init>(DirectKafkaInputDStream.scala:57)
-	at org.apache.spark.streaming.kafka010.KafkaUtils$.createDirectStream(KafkaUtils.scala:147)
-	at org.apache.spark.streaming.kafka010.KafkaUtils$.createDirectStream(KafkaUtils.scala:124)
-	at bigdata.project.system.DateIncidenceStats.<init>(DateIncidenceStats.scala:23)
-	at bigdata.project.system.Application$.delayedEndpoint$bigdata$project$system$Application$1(Application.scala:6)
-	at bigdata.project.system.Application$delayedInit$body.apply(Application.scala:3)
-	at scala.Function0$class.apply$mcV$sp(Function0.scala:40)
-	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
-	at scala.App$$anonfun$main$1.apply(App.scala:76)
-	at scala.App$$anonfun$main$1.apply(App.scala:76)
-	at scala.collection.immutable.List.foreach(List.scala:381)
-	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:35)
-	at scala.App$class.main(App.scala:76)
-	at bigdata.project.system.Application$.main(Application.scala:3)
-	at bigdata.project.system.Application.main(Application.scala)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at sbt.Run.invokeMain(Run.scala:67)
-	at sbt.Run.run0(Run.scala:61)
-	at sbt.Run.sbt$Run$$execute$1(Run.scala:51)
-	at sbt.Run$$anonfun$run$1.apply$mcV$sp(Run.scala:55)
-	at sbt.Run$$anonfun$run$1.apply(Run.scala:55)
-	at sbt.Run$$anonfun$run$1.apply(Run.scala:55)
-	at sbt.Logger$$anon$4.apply(Logger.scala:84)
-	at sbt.TrapExit$App.run(TrapExit.scala:248)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: com.fasterxml.jackson.databind.JsonMappingException: Incompatible Jackson version: 2.9.4
-	at com.fasterxml.jackson.module.scala.JacksonModule$class.setupModule(JacksonModule.scala:64)
-	at com.fasterxml.jackson.module.scala.DefaultScalaModule.setupModule(DefaultScalaModule.scala:19)
-	at com.fasterxml.jackson.databind.ObjectMapper.registerModule(ObjectMapper.java:751)
-	at org.apache.spark.rdd.RDDOperationScope$.<init>(RDDOperationScope.scala:82)
-	at org.apache.spark.rdd.RDDOperationScope$.<clinit>(RDDOperationScope.scala)
-	at org.apache.spark.streaming.dstream.InputDStream.<init>(InputDStream.scala:80)
-	at org.apache.spark.streaming.kafka010.DirectKafkaInputDStream.<init>(DirectKafkaInputDStream.scala:57)
-	at org.apache.spark.streaming.kafka010.KafkaUtils$.createDirectStream(KafkaUtils.scala:147)
-	at org.apache.spark.streaming.kafka010.KafkaUtils$.createDirectStream(KafkaUtils.scala:124)
-	at bigdata.project.system.DateIncidenceStats.<init>(DateIncidenceStats.scala:23)
-	at bigdata.project.system.Application$.delayedEndpoint$bigdata$project$system$Application$1(Application.scala:6)
-	at bigdata.project.system.Application$delayedInit$body.apply(Application.scala:3)
-	at scala.Function0$class.apply$mcV$sp(Function0.scala:40)
-	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
-	at scala.App$$anonfun$main$1.apply(App.scala:76)
-	at scala.App$$anonfun$main$1.apply(App.scala:76)
-	at scala.collection.immutable.List.foreach(List.scala:381)
-	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:35)
-	at scala.App$class.main(App.scala:76)
-	at bigdata.project.system.Application$.main(Application.scala:3)
-	at bigdata.project.system.Application.main(Application.scala)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at sbt.Run.invokeMain(Run.scala:67)
-	at sbt.Run.run0(Run.scala:61)
-	at sbt.Run.sbt$Run$$execute$1(Run.scala:51)
-	at sbt.Run$$anonfun$run$1.apply$mcV$sp(Run.scala:55)
-	at sbt.Run$$anonfun$run$1.apply(Run.scala:55)
-	at sbt.Run$$anonfun$run$1.apply(Run.scala:55)
-	at sbt.Logger$$anon$4.apply(Logger.scala:84)
-	at sbt.TrapExit$App.run(TrapExit.scala:248)
-	at java.lang.Thread.run(Thread.java:745)
-[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
-[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
-[0m[[0mdebug[0m] [0mInterrupting thread shuffle-server-5-1[0m
-[0m[[0mdebug[0m] [0m	Interrupted shuffle-server-5-1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread spark-listener-group-shared[0m
-[0m[[0mdebug[0m] [0m	Interrupted spark-listener-group-shared[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-67[0m
-[0m[[0mdebug[0m] [0m	Interrupted SparkUI-67[0m
-[0m[[0mdebug[0m] [0mInterrupting thread netty-rpc-env-timeout[0m
-[0m[[0mdebug[0m] [0m	Interrupted netty-rpc-env-timeout[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Thread-2[0m
-[0m[[0mdebug[0m] [0m	Interrupted Thread-2[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Thread-1[0m
-[0m[[0mdebug[0m] [0m	Interrupted Thread-1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-63[0m
-[0m[[0mdebug[0m] [0m	Interrupted SparkUI-63[0m
-[0m[[0mdebug[0m] [0mInterrupting thread RemoteBlock-temp-file-clean-thread[0m
-[0m[[0mdebug[0m] [0m	Interrupted RemoteBlock-temp-file-clean-thread[0m
-[0m[[0mdebug[0m] [0mInterrupting thread heartbeat-receiver-event-loop-thread[0m
-[0m[[0mdebug[0m] [0m	Interrupted heartbeat-receiver-event-loop-thread[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-68[0m
-[0m[[0mdebug[0m] [0m	Interrupted SparkUI-68[0m
-[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-6[0m
-[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-6[0m
-[0m[[0mdebug[0m] [0mInterrupting thread dag-scheduler-event-loop[0m
-[0m[[0mdebug[0m] [0m	Interrupted dag-scheduler-event-loop[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-65[0m
-[0m[[0mdebug[0m] [0m	Interrupted SparkUI-65[0m
-[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-1[0m
-[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread context-cleaner-periodic-gc[0m
-[0m[[0mdebug[0m] [0m	Interrupted context-cleaner-periodic-gc[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-69[0m
-[0m[[0mdebug[0m] [0m	Interrupted SparkUI-69[0m
-[0m[[0mdebug[0m] [0mInterrupting thread RecurringTimer - JobGenerator[0m
-[0m[[0mdebug[0m] [0m	Interrupted RecurringTimer - JobGenerator[0m
-[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-3[0m
-[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-3[0m
-[0m[[0mdebug[0m] [0mInterrupting thread rpc-server-3-1[0m
-[0m[[0mdebug[0m] [0m	Interrupted rpc-server-3-1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread dispatcher-event-loop-0[0m
-[0m[[0mdebug[0m] [0m	Interrupted dispatcher-event-loop-0[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-64-acceptor-0@330b9b67-ServerConnector@3dcc7376{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}[0m
-[0m[[0mdebug[0m] [0m	Interrupted SparkUI-64-acceptor-0@330b9b67-ServerConnector@3dcc7376{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}[0m
-[0m[[0mdebug[0m] [0mInterrupting thread driver-heartbeater[0m
-[0m[[0mdebug[0m] [0m	Interrupted driver-heartbeater[0m
-[0m[[0mdebug[0m] [0mInterrupting thread dispatcher-event-loop-1[0m
-[0m[[0mdebug[0m] [0m	Interrupted dispatcher-event-loop-1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Spark Context Cleaner[0m
-[0m[[0mdebug[0m] [0m	Interrupted Spark Context Cleaner[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-66[0m
-[0m[[0mdebug[0m] [0m	Interrupted SparkUI-66[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Timer-0[0m
-[0m[[0mdebug[0m] [0m	Interrupted Timer-0[0m
-[0m[[0mdebug[0m] [0mInterrupting thread element-tracking-store-worker[0m
-[0m[[0mdebug[0m] [0m	Interrupted element-tracking-store-worker[0m
-[0m[[0mdebug[0m] [0mInterrupting thread spark-listener-group-executorManagement[0m
-[0m[[0mdebug[0m] [0m	Interrupted spark-listener-group-executorManagement[0m
-[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-2[0m
-[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-2[0m
-[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-0[0m
-[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-0[0m
-[0m[[0mdebug[0m] [0mInterrupting thread SparkUI-62[0m
-[0m[[0mdebug[0m] [0m	Interrupted SparkUI-62[0m
-[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-4[0m
-[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-4[0m
-[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-7[0m
-[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-7[0m
-[0m[[0mdebug[0m] [0mInterrupting thread spark-listener-group-appStatus[0m
-[0m[[0mdebug[0m] [0m	Interrupted spark-listener-group-appStatus[0m
-[0m[[0mdebug[0m] [0mInterrupting thread map-output-dispatcher-5[0m
-[0m[[0mdebug[0m] [0m	Interrupted map-output-dispatcher-5[0m
-[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
-java.lang.RuntimeException: Nonzero exit code: 1
-	at scala.sys.package$.error(package.scala:27)
-	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48.apply(Defaults.scala:817)
-	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$46$$anonfun$apply$47$$anonfun$apply$48.apply(Defaults.scala:817)
-	at scala.Option.foreach(Option.scala:236)
-	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$46$$anonfun$apply$47.apply(Defaults.scala:817)
-	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$46$$anonfun$apply$47.apply(Defaults.scala:815)
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
-	at sbt.std.Transform$$anon$4.work(System.scala:63)
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
-	at sbt.Execute.work(Execute.scala:237)
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)
-	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
-	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-[0m[[31merror[0m] [0m(compile:[31mrun[0m) Nonzero exit code: 1[0m
