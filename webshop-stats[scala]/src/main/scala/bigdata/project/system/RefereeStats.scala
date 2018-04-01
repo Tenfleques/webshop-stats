@@ -7,11 +7,11 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 class RefereeStats(brokers:String,topics: String) {
   val REFERER_INDEX = 3
-  val CHECKOUTDIR = "/tmp/webshop-referer-streams"
+  val CHECKOUTDIR = "/tmp/webshop-x-refs"
 
 
   def runStats(): StreamingContext = {
-    val conf = new SparkConf().setAppName("referee-stats").setMaster("local[2]")
+    val conf = new SparkConf().setAppName("referee-stats-xx").setMaster("local[2]")
     val ssc = new StreamingContext(conf, Seconds(5))
 
     val topicsSet = topics.split(",").toSet
@@ -41,6 +41,7 @@ class RefereeStats(brokers:String,topics: String) {
     val hitsPurchasesPrepare = messages.map(record => {
       val row = record.value.split(",")
       //value = index5(quantity bought)
+      println((row(3),row(5).toLong))
       (row(3),row(5).toLong)
     })
     val hitsPurchases = hitsPurchasesPrepare.reduceByKey(_+_);
@@ -53,20 +54,16 @@ class RefereeStats(brokers:String,topics: String) {
     val hitsValue = hitsValuePrepare.reduceByKey(_+_)
 
     hitsCount.print()
-    hitsValue.print()
-    hitsPurchases.print()
+    //hitsValue.print()
+    //hitsPurchases.print()
 
     //@TODO
     //write results to kafka for consuption by nodejs client application
-    /*hitsCount.foreachRDD { rdd =>
-      rdd.foreachPartition { partitionOfRecords =>
-        val producer = createKafkaProducer()
-        partitionOfRecords.foreach { message =>
-          connection.send(message)
-        }
-        producer.close()
-      }
-    }*/
+    hitsCount.foreachRDD { rdd =>
+      //rdd.foreachPartition { partitionOfRecords =>
+        //partitionOfRecords.
+      //}
+    }
 
 
 
