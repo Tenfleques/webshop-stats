@@ -2,12 +2,12 @@ package bigdata.project.system
 
 import org.apache.kafka.common.serialization.StringDeserializer
 import org.apache.spark.SparkConf
-import org.apache.spark.streaming.{Seconds, StreamingContext, kafka010}
 import org.apache.spark.streaming.kafka010.{ConsumerStrategies, KafkaUtils, LocationStrategies}
+import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 class DateIncidenceStats(brokers:String,topics: String) {
   val TIMESTAMP_INDEX = 1
-  val conf = new SparkConf().setAppName("referee-stats").setMaster("local[2]")
+  val conf = new SparkConf().setAppName("referee-stats-x").setMaster("local[2]")
   val ssc = new StreamingContext(conf, Seconds(5))
 
   val topicsSet = topics.split(",").toSet
@@ -16,7 +16,7 @@ class DateIncidenceStats(brokers:String,topics: String) {
     "key.deserializer" -> classOf[StringDeserializer],
     "value.deserializer" -> classOf[StringDeserializer],
     "group.id" -> "1",
-    "auto.offset.reset" -> "earliest",
+    "auto.offset.reset" -> "latest",
     "enable.auto.commit" -> (false: java.lang.Boolean)
   )
 
@@ -25,35 +25,46 @@ class DateIncidenceStats(brokers:String,topics: String) {
     LocationStrategies.PreferConsistent,
     ConsumerStrategies.Subscribe[String, String](topicsSet, kafkaParams))
 
-
-  val offsetRanges = Array (
-    kafka010.OffsetRange(topics,0,0,100),
-    kafka010.OffsetRange(topics,1,0,100)
-  )
-
   //messages.map(_.value.split(",")(ITEM_INDEX)).persist() using a constant index returns Task not serializable
 
-  val hitsCount = messages.map(record => {
+  val hitsCountPrep = messages.map(record => {
     val row = record.value.split(",")
     (row(1),1L)
-  }).reduce((x,y) => {
-    (x._1, x._2 + y._2)
   })
-  //can't print after reduce, reduceByKey don't know why all the methods get the java.lang.NoSuchMethodError: exception
+  val hitsCount = hitsCountPrep.reduceByKey(_+_)
 
-  val hitsPurchases = messages.map(record => {
+  val hitsPurchasesPrep = messages.map(record => {
     val row = record.value.split(",")
     //value = index5(quantity bought)
     (row(1),row(5).toLong)
   })
 
-  val hitsValue = messages.map(record => {
+  val hitsPurchases = hitsPurchasesPrep.reduceByKey(_+_)
+
+  val hitsValuePrep = messages.map(record => {
     val row = record.value.split(",")
     //value = index5(quantity bought) * index6(price of item)
     (row(1),row(5).toLong * row(6).toLong)
   })
 
-  hitsPurchases.persist().print()
+  val hitsValue = hitsValuePrep.reduceByKey(_+_)
+
+  //hitsCount.print()
+  //hitsValue.print()
+  hitsValue.print()
+  hitsPurchases
+    .foreachRDD { rdd =>
+      rdd.foreachPartition { partitionOfRecords =>
+      /*val connection = createNewConnection()
+      partitionOfRecords.foreach(record => connection.send(record))
+      connection.close()*/
+    }
+  }
+  hitsPurchases.foreachRDD(rdd => {
+
+  })
+
+  //hitsPurchases.print()
 
   ssc.start()
   ssc.awaitTermination()
