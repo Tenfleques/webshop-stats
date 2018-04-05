@@ -25,8 +25,10 @@ import java.util.concurrent.CountDownLatch;
 //19,1499882547,Platform e.g Android 4.0.2,instagram.*,HTC Desire HD,0,5000
 public class Aggregate{
     private final String topic;
+    private String storeName;
     private final Properties props;
     private final Integer KEY_FIELD; // the statistic of count, purchase count and purchase value is made against me
+
 
     public Aggregate(Integer key, String brokers, String topic, Integer statistic, String rpcEndpoint, Integer
             rpcPort) throws Exception {
@@ -37,6 +39,7 @@ public class Aggregate{
         this.topic = topic;
         this.KEY_FIELD = key;
         this.props  = new Properties();
+        this.storeName = "";
         final String APP_ID = "stream-aggregate-data" + new Date().hashCode();
         props.put(StreamsConfig.APPLICATION_ID_CONFIG, APP_ID);
         props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, brokers);
@@ -46,6 +49,7 @@ public class Aggregate{
         props.put(StreamsConfig.DEFAULT_TIMESTAMP_EXTRACTOR_CLASS_CONFIG, WallclockTimestampExtractor.class);
         final File storeFile = Files.createTempDirectory(new File("/tmp").toPath(), APP_ID).toFile();
         props.put(StreamsConfig.STATE_DIR_CONFIG, storeFile.getPath());
+
         final KafkaStreams streams;
 
         switch (statistic){
@@ -58,17 +62,20 @@ public class Aggregate{
             default:
                 streams = runCountStat();
         }
+        //expose the available REST endpoints
+        String info = "\n" +
+                "*available endpoints :\n" +
+                "*\t     http://"+rpcEndpoint+":"+rpcPort+"/stats/"+storeName+"/all\n" +
+                //TODO create platform to query the state of the given list
+                //"*\t     http://"+rpcEndpoint+":"+rpcPort+"/"+storeName+"/{listofkeys}\n" +
+                "*\t     http://"+rpcEndpoint+":"+rpcPort+"/instances\n" +
+                "*\t     http://"+rpcEndpoint+":"+rpcPort+"/instances/"+storeName+"\n" +
+                "*\t     http://"+rpcEndpoint+":"+rpcPort+"/instance/"+storeName+"/{key}";
+        System.out.print(info);
+
         streams.start();
         final RPCService restService =  startRestProxy(streams,rpcPort);
-        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-            try {
-                streams.close();
-                restService.stop();
-            } catch (Exception e) {
-                // ignored
-            }
-        }));
-        /*final CountDownLatch latch = new CountDownLatch(1);
+        final CountDownLatch latch = new CountDownLatch(1);
         try{
             latch.await();
         }catch (Throwable e){
@@ -81,13 +88,13 @@ public class Aggregate{
                 try {
                     restService.stop();
                 }catch (Exception e){
-                    //
+                    System.out.print(e.getMessage());
                 }
                 latch.countDown();
             }
         });
 
-        System.exit(0);*/
+        System.exit(0);
 
     }
     private KafkaStreams runPurchaseValueStat(){
@@ -100,8 +107,8 @@ public class Aggregate{
                         Serialized.with(
                                 Serdes.String(),
                                 Serdes.String()));
-
-        final Materialized store = Materialized.as("value-stats");
+        this.storeName = "value";
+        final Materialized store = Materialized.as(this.storeName);
         refererHitsCount.aggregate(
                     ()-> "0",
                     (key, aggOne,aggTwo) -> {
@@ -121,7 +128,8 @@ public class Aggregate{
                         Serialized.with(
                                 Serdes.String(),
                                 Serdes.String()));
-        final Materialized store = Materialized.as("sales-stats");
+        this.storeName = "sales";
+        final Materialized store = Materialized.as(storeName);
         refererCountOfPurchases.aggregate(
                     ()-> "0",
                     (key, aggOne,aggTwo) -> {
@@ -141,7 +149,8 @@ public class Aggregate{
                 Serialized.with(
                         Serdes.String(),
                         Serdes.String()));
-        final Materialized store = Materialized.as("hits-stats");
+        this.storeName = "hits";
+        final Materialized store = Materialized.as("hits");
         refererValueOfPurchases
                 .aggregate(
                     ()-> "0",
@@ -150,8 +159,6 @@ public class Aggregate{
                         return  val.toString();
 
                     },store);
-                //reduce((a,b) -> a+b,Materialized.<String, Long, KeyValueStore<Bytes, byte[]>>as
-                //("word-count")).print();//,Materialized.as("hits-stats"));
         final Topology topology = builder.build();
         return new KafkaStreams(topology, this.props);
     }

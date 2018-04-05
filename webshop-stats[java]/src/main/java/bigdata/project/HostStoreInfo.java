@@ -48,10 +48,12 @@ public class HostStoreInfo {
 
     @Override
     public String toString() {
-        return "HostStoreInfo{" +
-                "host='" + host + '\'' +
-                ", port=" + port +
-                ", storeNames=" + storeNames +
+        return "{ " +
+                "\"HostStoreInfo\" :" +
+                    "{"
+                        +"\"host\": \"" + host + "\","
+                        +"\"port\": \"" + port + "\","
+                        +"\"storeNames\": " + storeNames +
                 '}';
     }
 

@@ -68,6 +68,7 @@ public class Application {
                 + "\n\t \"restPort\" : \"required: the port for the REST endpoint e.g 7070\""
                 + "\n}\n";
 
+
         if(args.length != 1) {
             System.out.print(usage);
             System.exit(1);
