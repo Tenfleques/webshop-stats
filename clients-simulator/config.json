@@ -8,7 +8,7 @@
         "kafka": {
             "host": "localhost",
             "port": "2181",
-            "topic": "clients-purchases-src-xxx",
+            "topic": "clients-purchases-in",
             "timer":{
                 "delay":{
                   "avg":3000,

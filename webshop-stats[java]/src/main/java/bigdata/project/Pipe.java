@@ -14,7 +14,7 @@ import java.util.concurrent.CountDownLatch;
  * just pipe data through the stream using
  */
 public class Pipe {
-    public static void main(String[] args) throws Exception{
+    public static void Run(String[] args){
         Properties props = new Properties();
         props.put(StreamsConfig.APPLICATION_ID_CONFIG, "stream-web-data");
         props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
