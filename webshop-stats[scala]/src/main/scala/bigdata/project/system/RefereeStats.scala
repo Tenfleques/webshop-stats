@@ -11,10 +11,10 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 import org.slf4j.LoggerFactory
 
 class RefereeStats(brokers:String,topics: String) extends LazyLogging {
-  val CHECKOUTDIR = "/tmp/refs-xyzabb"
-
+  val CHECKOUTDIR = "/tmp/refs-xyzabbcdcddc"
+  val REFERER_INDEX = 3
   def go(): StreamingContext = { //required 0 for count, 1 for value, 2 for purchases
-    val conf = new SparkConf().setAppName("webshop-referee-stats-xyzab").setMaster("local[2]")
+    val conf = new SparkConf().setAppName("webshop-referee-stats-xyzabcddcdd").setMaster("local[2]")
     val ssc = new StreamingContext(conf, Seconds(5))
     val logger = Logger(LoggerFactory.getLogger(this.getClass))
 
@@ -23,8 +23,8 @@ class RefereeStats(brokers:String,topics: String) extends LazyLogging {
       "bootstrap.servers" -> brokers,
       "key.deserializer" -> classOf[StringDeserializer],
       "value.deserializer" -> classOf[StringDeserializer],
-      "group.id" -> "streamer-xxx-xyzab",
-      "auto.offset.reset" -> "earliest",
+      "group.id" -> "streamer-xxx-xyzabcdddc",
+      "auto.offset.reset" -> "latest",
       "enable.auto.commit" -> (false: java.lang.Boolean)
     )
     ssc.sparkContext.broadcast(brokers) //couldn't be found however inside the foreachRDD :-(
@@ -33,8 +33,6 @@ class RefereeStats(brokers:String,topics: String) extends LazyLogging {
       ssc,
       LocationStrategies.PreferConsistent,
       ConsumerStrategies.Subscribe[String, String](topicsSet, kafkaParams))
-
-    val REFERER_INDEX = 3
 
     val hitsCountPrepare = messages.map(record => {
       val row = record.value.split(",")
@@ -59,11 +57,6 @@ class RefereeStats(brokers:String,topics: String) extends LazyLogging {
 
     val hitsValue = hitsValuePrepare.reduceByKey(_+_)
 
-    /*hitsValuePrepare.foreachRDD(rdd => {
-      rdd.foreach(record => {
-        logger.error(record.toString())
-      })
-    })*/
     hitsValuePrepare.print()
 
 
