@@ -11,6 +11,8 @@ import org.apache.kafka.streams.kstream.Materialized;
 import org.apache.kafka.streams.kstream.Serialized;
 import org.apache.kafka.streams.processor.WallclockTimestampExtractor;
 
+import java.io.File;
+import java.nio.file.Files;
 import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.CountDownLatch;
@@ -35,12 +37,15 @@ public class Aggregate{
         this.topic = topic;
         this.KEY_FIELD = key;
         this.props  = new Properties();
-        props.put(StreamsConfig.APPLICATION_ID_CONFIG, "stream-aggregate-data" + new Date().hashCode());
+        final String APP_ID = "stream-aggregate-data" + new Date().hashCode();
+        props.put(StreamsConfig.APPLICATION_ID_CONFIG, APP_ID);
         props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, brokers);
         props.put(StreamsConfig.APPLICATION_SERVER_CONFIG, rpcEndpoint + ":" + rpcPort);
         props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String().getClass());
         props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String().getClass());
         props.put(StreamsConfig.DEFAULT_TIMESTAMP_EXTRACTOR_CLASS_CONFIG, WallclockTimestampExtractor.class);
+        final File storeFile = Files.createTempDirectory(new File("/tmp").toPath(), APP_ID).toFile();
+        props.put(StreamsConfig.STATE_DIR_CONFIG, storeFile.getPath());
         final KafkaStreams streams;
 
         switch (statistic){
@@ -55,7 +60,15 @@ public class Aggregate{
         }
         streams.start();
         final RPCService restService =  startRestProxy(streams,rpcPort);
-        final CountDownLatch latch = new CountDownLatch(1);
+        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
+            try {
+                streams.close();
+                restService.stop();
+            } catch (Exception e) {
+                // ignored
+            }
+        }));
+        /*final CountDownLatch latch = new CountDownLatch(1);
         try{
             latch.await();
         }catch (Throwable e){
@@ -74,7 +87,7 @@ public class Aggregate{
             }
         });
 
-        System.exit(0);
+        System.exit(0);*/
 
     }
     private KafkaStreams runPurchaseValueStat(){

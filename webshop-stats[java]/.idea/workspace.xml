@@ -2,428 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e11f63c7-ab82-47d7-adbe-022d896315c3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_base_2_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_2_12_v20150709.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_12_v20150709.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_2_12_v20150709.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_2_12_v20150709.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_2_12_v20150709.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_12_v20150709.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b25.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_4_0_b25.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_4_0_b25.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_4_0_b25.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_4_0_b25.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_19.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_19.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_19.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_19.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_19.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_entity_filtering_2_19.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_19.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_json_jackson_2_19.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bigdata/project/Application.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bigdata/project/HostStoreInfo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bigdata/project/KeyNotFoundException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bigdata/project/KeyValueBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bigdata/project/MetadataService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bigdata/project/RPCService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bigdata/project/WebRecord.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/README.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/config.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/platform-count.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/platform-sales.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/platform-value.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/referer-count.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/referer-sales.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/referer-value.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/resources/log.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/hydra.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__aopalliance_aopalliance_1_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__asm_asm_3_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_carrotsearch_hppc_0_7_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_clearspring_analytics_stream_2_7_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_esotericsoftware_kryo_shaded_3_0_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_esotericsoftware_minlog_1_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_6_7_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_7_9_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_6_7_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_paranamer_2_7_9_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_6_7_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_github_luben_zstd_jni_1_3_2_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_google_code_findbugs_jsr305_3_0_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_google_code_gson_gson_2_2_4_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_google_guava_guava_11_0_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_google_inject_extensions_guice_servlet_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_google_inject_guice_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_google_protobuf_protobuf_java_2_5_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_jamesmurty_utils_java_xmlbuilder_1_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_ning_compress_lzf_1_0_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_sun_xml_bind_jaxb_impl_2_2_3_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_thoughtworks_paranamer_paranamer_2_8_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_twitter_chill_2_11_0_8_4_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_twitter_chill_java_0_8_4_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_univocity_univocity_parsers_2_5_9_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__com_vlkan_flatbuffers_1_2_0_3f79e055_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__commons_beanutils_commons_beanutils_1_7_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__commons_beanutils_commons_beanutils_core_1_8_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__commons_cli_commons_cli_1_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__commons_codec_commons_codec_1_11_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__commons_collections_commons_collections_3_2_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__commons_configuration_commons_configuration_1_6_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__commons_digester_commons_digester_1_8_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__commons_httpclient_commons_httpclient_3_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__commons_io_commons_io_2_4_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__commons_lang_commons_lang_2_6_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__commons_net_commons_net_2_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__io_airlift_aircompressor_0_8_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__io_dropwizard_metrics_metrics_core_3_1_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__io_dropwizard_metrics_metrics_graphite_3_1_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__io_dropwizard_metrics_metrics_json_3_1_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__io_dropwizard_metrics_metrics_jvm_3_1_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__io_netty_netty_3_9_9_Final_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__io_netty_netty_all_4_1_17_Final_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__javax_activation_activation_1_1_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__javax_annotation_javax_annotation_api_1_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__javax_inject_javax_inject_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__javax_servlet_javax_servlet_api_3_1_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__javax_validation_validation_api_1_1_0_Final_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__javax_ws_rs_javax_ws_rs_api_2_0_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__javax_xml_bind_jaxb_api_2_2_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__javax_xml_stream_stax_api_1_0_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__jline_jline_0_9_94_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__joda_time_joda_time_2_9_9_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__log4j_log4j_1_2_17_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__net_iharder_base64_2_3_8_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__net_java_dev_jets3t_jets3t_0_9_4_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__net_razorvine_pyrolite_4_13_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__net_sf_py4j_py4j_0_10_6_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_antlr_antlr4_runtime_4_7_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_arrow_arrow_format_0_8_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_arrow_arrow_memory_0_8_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_arrow_arrow_vector_0_8_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_avro_avro_1_7_7_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_avro_avro_ipc_1_7_7_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_avro_avro_ipc_1_7_7_tests_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_avro_avro_mapred_1_7_7_hadoop2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_commons_commons_compress_1_4_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_commons_commons_crypto_1_0_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_commons_commons_lang3_3_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_commons_commons_math3_3_4_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_curator_curator_client_2_6_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_curator_curator_framework_2_6_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_curator_curator_recipes_2_6_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_directory_api_api_asn1_api_1_0_0_M20_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_directory_api_api_util_1_0_0_M20_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_directory_server_apacheds_i18n_2_0_0_M15_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_hadoop_hadoop_annotations_2_6_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_hadoop_hadoop_auth_2_6_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_hadoop_hadoop_client_2_6_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_hadoop_hadoop_common_2_6_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_hadoop_hadoop_hdfs_2_6_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_app_2_6_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_common_2_6_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_core_2_6_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_6_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_6_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_api_2_6_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_client_2_6_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_common_2_6_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_server_common_2_6_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_ivy_ivy_2_4_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_orc_orc_core_1_4_1_nohive_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_orc_orc_mapreduce_1_4_1_nohive_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_parquet_parquet_column_1_8_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_parquet_parquet_common_1_8_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_parquet_parquet_encoding_1_8_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_parquet_parquet_format_2_3_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_parquet_parquet_hadoop_1_8_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_parquet_parquet_jackson_1_8_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_spark_spark_catalyst_2_11_2_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_spark_spark_core_2_11_2_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_spark_spark_kvstore_2_11_2_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_spark_spark_launcher_2_11_2_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_spark_spark_network_common_2_11_2_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_spark_spark_network_shuffle_2_11_2_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_spark_spark_sketch_2_11_2_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_spark_spark_sql_2_11_2_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_spark_spark_tags_2_11_2_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_spark_spark_unsafe_2_11_2_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_xbean_xbean_asm5_shaded_4_4_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_apache_zookeeper_zookeeper_3_4_6_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_bouncycastle_bcprov_jdk15on_1_52_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_codehaus_jackson_jackson_core_asl_1_9_13_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_codehaus_jackson_jackson_jaxrs_1_9_13_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_codehaus_jackson_jackson_mapper_asl_1_9_13_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_codehaus_jackson_jackson_xc_1_9_13_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_codehaus_janino_commons_compiler_3_0_8_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_codehaus_janino_janino_3_0_8_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_codehaus_jettison_jettison_1_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_fusesource_leveldbjni_leveldbjni_all_1_8_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b34_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_glassfish_hk2_external_javax_inject_2_4_0_b34_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_glassfish_hk2_hk2_api_2_4_0_b34_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_glassfish_hk2_hk2_locator_2_4_0_b34_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_glassfish_hk2_hk2_utils_2_4_0_b34_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_glassfish_hk2_osgi_resource_locator_1_0_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_glassfish_jersey_containers_jersey_container_servlet_2_22_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_glassfish_jersey_containers_jersey_container_servlet_core_2_22_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_glassfish_jersey_core_jersey_client_2_22_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_glassfish_jersey_core_jersey_common_2_22_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_glassfish_jersey_core_jersey_server_2_22_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_glassfish_jersey_media_jersey_media_jaxb_2_22_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_htrace_htrace_core_3_0_4_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_javassist_javassist_3_18_1_GA_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_json4s_json4s_ast_2_11_3_2_11_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_json4s_json4s_core_2_11_3_2_11_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_json4s_json4s_jackson_2_11_3_2_11_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_lz4_lz4_java_1_4_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_mortbay_jetty_jetty_util_6_1_26_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_objenesis_objenesis_2_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_roaringbitmap_RoaringBitmap_0_5_11_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_4_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_scala_lang_scala_compiler_2_11_8_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_8_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_11_8_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_scala_lang_scalap_2_11_8_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_slf4j_jcl_over_slf4j_1_7_16_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_slf4j_jul_to_slf4j_1_7_16_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_25_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_slf4j_slf4j_log4j12_1_7_16_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_sonatype_sisu_inject_cglib_2_2_1_v20090111_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_spark_project_spark_unused_1_0_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_tukaani_xz_1_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__org_xerial_snappy_snappy_java_1_1_2_6_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__oro_oro_2_0_8_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__xerces_xercesImpl_2_9_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__xml_apis_xml_apis_1_3_04_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/libraries/sbt__xmlenc_xmlenc_0_52_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/modules/webshop-stats-spark--build.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/modules/webshop-stats-spark-.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/modules/webshop-stats[spark].iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/sbt.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/scala_compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/src/main/scala/Application.scala" />
-      <change beforePath="$PROJECT_DIR$/../bi/index.js" afterPath="$PROJECT_DIR$/../bi/index.js" />
-      <change beforePath="$PROJECT_DIR$/../clients-simulator/config.json" afterPath="$PROJECT_DIR$/../clients-simulator/config.json" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_1.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bigdata.project.iml" afterPath="$PROJECT_DIR$/bigdata.project.iml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bigdata/project/Aggregate.java" afterPath="$PROJECT_DIR$/src/main/java/bigdata/project/Aggregate.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bigdata/project/Pipe.java" afterPath="$PROJECT_DIR$/src/main/java/bigdata/project/Pipe.java" />
-      <change beforePath="$PROJECT_DIR$/target/bigdata.project-0.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bigdata/project/Aggregate$1.class" afterPath="$PROJECT_DIR$/target/classes/bigdata/project/Aggregate$1.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bigdata/project/KeyValueBean.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bigdata/project/RPCService.java" afterPath="$PROJECT_DIR$/src/main/java/bigdata/project/RPCService.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bigdata/project/Aggregate$1.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/bigdata/project/Aggregate.class" afterPath="$PROJECT_DIR$/target/classes/bigdata/project/Aggregate.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/bigdata/project/Pipe$1.class" afterPath="$PROJECT_DIR$/target/classes/bigdata/project/Pipe$1.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/bigdata/project/Pipe.class" afterPath="$PROJECT_DIR$/target/classes/bigdata/project/Pipe.class" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/resources/test/conspiracy.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/resources/test/stopwords.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/src/main/scala/bigdata/project/system/Application.scala" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/src/main/scala/bigdata/project/system/Application.scala" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/src/main/scala/bigdata/project/system/RefereeStats.scala" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/src/main/scala/bigdata/project/system/RefereeStats.scala" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/Application$.class" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/Application$.class" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$1.class" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$1.class" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$2.class" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$2.class" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$3.class" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$3.class" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$4.class" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$4.class" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$5.class" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$5.class" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$6.class" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$6.class" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$7.class" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$7.class" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats.class" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats.class" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/.idea/codeStyles/codeStyleConfig.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/.idea/hydra.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_12_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/.idea/modules/webshop-stats-spark-stream--build.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/.idea/modules/webshop-stats-spark-stream-.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/.idea/modules/webshop-stats[spark-stream].iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/.idea/sbt.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/.idea/scala_compiler.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/build.sbt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/build.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$03fbaab8872ddfdd975e$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$03fbaab8872ddfdd975e.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$03fbaab8872ddfdd975e.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$100a5d0ac4bff66a9f3c$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$100a5d0ac4bff66a9f3c.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$100a5d0ac4bff66a9f3c.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$32369bf7b8689be44002$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$32369bf7b8689be44002.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$32369bf7b8689be44002.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$342849298245ce30bf3c$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$342849298245ce30bf3c.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$342849298245ce30bf3c.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$42f35ed6b9c84a906c44$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$42f35ed6b9c84a906c44.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$42f35ed6b9c84a906c44.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$9882083d57bf85f18251$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$9882083d57bf85f18251.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$9882083d57bf85f18251.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$b13b02c33819fee6b499$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$b13b02c33819fee6b499.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$b13b02c33819fee6b499.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$f483de0fb57a10df2ff1$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$f483de0fb57a10df2ff1.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$f483de0fb57a10df2ff1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$fd3b813652e598f72862$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$fd3b813652e598f72862.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/config-classes/$fd3b813652e598f72862.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.xsl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/webshop-stats-spark-stream-build-webshop-stats-spark-stream-build-compile-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/webshop-stats-spark-stream-build-webshop-stats-spark-stream-build-compile.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/webshop-stats-spark-stream-build-webshop-stats-spark-stream-build-optional.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/webshop-stats-spark-stream-build-webshop-stats-spark-stream-build-plugin.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/webshop-stats-spark-stream-build-webshop-stats-spark-stream-build-pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/webshop-stats-spark-stream-build-webshop-stats-spark-stream-build-provided.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/webshop-stats-spark-stream-build-webshop-stats-spark-stream-build-runtime-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/webshop-stats-spark-stream-build-webshop-stats-spark-stream-build-runtime.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/webshop-stats-spark-stream-build-webshop-stats-spark-stream-build-scala-tool.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/webshop-stats-spark-stream-build-webshop-stats-spark-stream-build-test-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/webshop-stats-spark-stream-build-webshop-stats-spark-stream-build-test.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/scala-2.12/sbt-1.0/resolution-cache/webshop-stats-spark-stream-build/webshop-stats-spark-stream-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/scala-2.12/sbt-1.0/resolution-cache/webshop-stats-spark-stream-build/webshop-stats-spark-stream-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/$global/$global/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/$global/ivySbt/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/$global/projectDescriptors/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/$global/update/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/compile/$global/$global/discoveredMainClasses/data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/compile/compile/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/compile/compileIncremental/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/compile/copyResources/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/compile/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/compile/unmanagedJars/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/project/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/src/main/scala/bigdata.project/Application.scala" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/.history" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/default/webshop-stats-spark-stream-$sources/0.1/resolved.xml.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/default/webshop-stats-spark-stream-$sources/0.1/resolved.xml.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/default/webshop-stats-spark-stream-_2.11/0.1/resolved.xml.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/default/webshop-stats-spark-stream-_2.11/0.1/resolved.xml.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-compile-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-compile.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-optional.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-plugin.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-provided.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-runtime-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-runtime.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-scala-tool.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-test-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-test.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-_2.11-compile-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-_2.11-compile.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-_2.11-optional.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-_2.11-plugin.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-_2.11-pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-_2.11-provided.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-_2.11-runtime-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-_2.11-runtime.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-_2.11-scala-tool.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-_2.11-test-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/default-webshop-stats-spark-stream-_2.11-test.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/ivy-report.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.11/resolution-cache/reports/ivy-report.xsl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/default/webshop-stats-spark-stream-$sources/0.1/resolved.xml.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/default/webshop-stats-spark-stream-$sources/0.1/resolved.xml.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/default/webshop-stats-spark-stream-_2.12/0.1/resolved.xml.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/default/webshop-stats-spark-stream-_2.12/0.1/resolved.xml.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-compile-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-compile.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-optional.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-plugin.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-provided.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-runtime-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-runtime.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-scala-tool.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-test-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-$sources-test.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-_2.12-compile-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-_2.12-compile.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-_2.12-optional.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-_2.12-plugin.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-_2.12-pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-_2.12-provided.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-_2.12-runtime-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-_2.12-runtime.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-_2.12-scala-tool.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-_2.12-test-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/default-webshop-stats-spark-stream-_2.12-test.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/ivy-report.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/scala-2.12/resolution-cache/reports/ivy-report.xsl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/$global/ivySbt/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/$global/projectDescriptors/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/$global/ssExtractDependencies/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/$global/update/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/compile/managedClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/compile/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/compile/unmanagedJars/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/test/managedClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/test/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark-stream]/target/streams/test/unmanagedJars/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../webshop-stats[spark]/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -438,11 +26,31 @@
       <file leaf-file-name="Aggregate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/Aggregate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1950">
-              <caret line="130" column="62" lean-forward="false" selection-start-line="130" selection-start-column="52" selection-end-line="130" selection-end-column="62" />
+            <state relative-caret-position="331">
+              <caret line="151" column="28" lean-forward="false" selection-start-line="151" selection-start-column="28" selection-end-line="151" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebRecord.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/WebRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="146" column="8" lean-forward="false" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -450,9 +58,13 @@
       <file leaf-file-name="RPCService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/RPCService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="77" column="37" lean-forward="false" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="37" />
-              <folding />
+            <state relative-caret-position="-686">
+              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <folding>
+                <element signature="e#1989#2005#0" expanded="true" />
+                <element signature="e#3358#3359#0" expanded="true" />
+                <element signature="e#3425#3426#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -460,11 +72,21 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" column="43" lean-forward="false" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+            <state relative-caret-position="211">
+              <caret line="127" column="9" lean-forward="true" selection-start-line="123" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MetadataService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/MetadataService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="67" column="44" lean-forward="false" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -493,6 +115,10 @@
       <find>builder</find>
       <find>startRestProxy</find>
       <find>asse</find>
+      <find>link</find>
+      <find>com.sun.jersey</find>
+      <find>streamsMetadata</find>
+      <find>windowedByKey</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -527,12 +153,12 @@
         <option value="$PROJECT_DIR$/src/main/java/bigdata/project/KeyValueBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/bigdata/project/WebRecord.java" />
         <option value="$PROJECT_DIR$/src/main/resources/config.json" />
-        <option value="$PROJECT_DIR$/src/main/java/bigdata/project/RPCService.java" />
         <option value="$PROJECT_DIR$/src/main/java/bigdata/project/ApplicationExceptions.java" />
         <option value="$PROJECT_DIR$/src/main/java/bigdata/project/KeyNotFoundException.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/bigdata/project/Application.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/bigdata/project/Aggregate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bigdata/project/RPCService.java" />
       </list>
     </option>
   </component>
@@ -786,21 +412,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="681" y="31" width="1370" height="689" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290441" sideWeight="0.4252266" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290441" sideWeight="0.42069486" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32536766" sideWeight="0.5151057" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290441" sideWeight="0.5861027" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290441" sideWeight="0.42749244" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290441" sideWeight="0.41389728" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32536766" sideWeight="0.48489425" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32536766" sideWeight="0.47885197" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13746223" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290441" sideWeight="0.49697885" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -813,7 +441,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -851,7 +478,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="60" lean-forward="false" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
-          <folding />
+          <folding>
+            <element signature="e#1989#2005#0" expanded="true" />
+            <element signature="e#3358#3359#0" expanded="true" />
+            <element signature="e#3425#3426#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1072,30 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/MetadataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/KeyValueBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/WebRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1109,26 +716,8 @@
         <state relative-caret-position="30">
           <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="33" />
           <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="83" column="70" lean-forward="false" selection-start-line="83" selection-start-column="70" selection-end-line="83" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="43" lean-forward="false" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#128#129#0" expanded="false" />
+            <element signature="e#158#159#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1141,21 +730,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/Aggregate.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="130" column="62" lean-forward="false" selection-start-line="130" selection-start-column="52" selection-end-line="130" selection-end-column="62" />
+        <state relative-caret-position="154">
+          <caret line="146" column="8" lean-forward="false" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="127" column="9" lean-forward="true" selection-start-line="123" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/Aggregate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="151" column="28" lean-forward="false" selection-start-line="151" selection-start-column="28" selection-end-line="151" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/WebRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/KeyValueBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/MetadataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="67" column="44" lean-forward="false" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/RPCService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="77" column="37" lean-forward="false" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="-686">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="e#1989#2005#0" expanded="true" />
+            <element signature="e#3358#3359#0" expanded="true" />
+            <element signature="e#3425#3426#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
