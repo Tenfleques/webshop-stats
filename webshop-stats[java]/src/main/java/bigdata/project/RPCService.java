@@ -16,14 +16,18 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
-import java.util.List;
 
 /**
- *  A simple REST proxy that runs embedded in the {@link bigdata.project.Aggregate}. This is used to
- *  demonstrate how a developer can use the Interactive Queries APIs exposed by Kafka Streams to
- *  locate and query the State Stores within a Kafka Streams Application.
+ *  Rest endpoint to broadcast the computed statistics in the application
+ *  available endpoints :
+ *      url:port/stats/{storeName}/all
+ *      url:port/stats/{storeName}/{key}
+ *      url:port/instances
+ *      url:port/instances/{storeName}
+ *      url:port/instance/{storeName}/{key}
+ *
  */
-@Path("state")
+@Path("/")
 public class RPCService {
 
     private final KafkaStreams streams;
@@ -34,26 +38,11 @@ public class RPCService {
         this.streams = streams;
         this.metadataService = new MetadataService(streams);
     }
-
-    /**
-     * Get all of the key-value pairs available in a store
-     * @param storeName   store to query
-     * @return A List representing all of the key-values in the provided
-     * store
-     */
-    @GET()
-    @Path("/keyvalues/{storeName}/all")
-    @Produces(MediaType.APPLICATION_JSON)
-    public String allForStore(@PathParam("storeName") final String storeName) {
-        //List<KeyValueBean> allInStore = rangeForKeyValueStore(storeName, ReadOnlyKeyValueStore::all);
+    private String buildJson(KeyValueIterator<String,String> streamData){
         String json = "[";
         Integer i = 0;
-        KeyValueIterator<String,String> data = streams
-                .store(storeName, QueryableStoreTypes.<String, String>keyValueStore())
-                .all();
-
-        while(data.hasNext()){
-            KeyValue<String, String> record = data.next();
+        while(streamData.hasNext()){
+            KeyValue<String, String> record = streamData.next();
             if(i!=0)
                 json += ",";
             json += "{";
@@ -65,22 +54,33 @@ public class RPCService {
         return json;
     }
 
+    /**
+     * Get all of the key-value pairs available in a store
+     * @param storeName   store to query
+     * @return A List representing all of the key-values in the provided
+     * store
+     */
+    @GET()
+    @Path("/stats/{storeName}/all")
+    @Produces(MediaType.APPLICATION_JSON)
+    public String allForStore(@PathParam("storeName") final String storeName) {
+        return buildJson(streams.store(storeName, QueryableStoreTypes.<String, String>keyValueStore()).all());
+    }
+
 
     /**
      * Get all of the key-value pairs that have keys within the range from...to
      * @param //storeName   store to query
-     * @param //from        start of the range (inclusive)
-     * @param //to          end of the range (inclusive)
-     * @return A JsonArray representing all of the key-values in the provided
-     * store that fall withing the given range.
+     * @param //[keys]        start of the range (inclusive)
+     * @return A JsonArray representing the key-value pairs for the given list of keys  in the provided
      */
     /*@GET()
-    @Path("/keyvalues/{storeName}/range/{from}/{to}")
+    @Path("/stats/{storeName}/range/{listofkeys}")
     @Produces(MediaType.APPLICATION_JSON)
-    public List<KeyValueBean> keyRangeForStore(@PathParam("storeName") final String storeName,
+    public String keyRangeForStore(@PathParam("storeName") final String storeName,
                                                @PathParam("from") final String from,
                                                @PathParam("to") final String to) {
-        return rangeForKeyValueStore(storeName, store -> store.range(from, to));
+        return buildJson(streams.store(storeName, QueryableStoreTypes.<String, String>keyValueStore()).range(from, to));
     }*/
     @GET()
     @Path("/instances")
@@ -99,7 +99,7 @@ public class RPCService {
     @GET()
     @Path("/instances/{storeName}")
     @Produces(MediaType.APPLICATION_JSON)
-    public List<HostStoreInfo> streamsMetadataForStore(@PathParam("storeName") String store) {
+    public String streamsMetadataForStore(@PathParam("storeName") String store) {
         return metadataService.streamsMetadataForStore(store);
     }
 
@@ -113,7 +113,7 @@ public class RPCService {
     @GET()
     @Path("/instance/{storeName}/{key}")
     @Produces(MediaType.APPLICATION_JSON)
-    public HostStoreInfo streamsMetadataForStoreAndKey(@PathParam("storeName") String store,
+    public String streamsMetadataForStoreAndKey(@PathParam("storeName") String store,
                                                        @PathParam("key") String key) {
         return metadataService.streamsMetadataForStoreAndKey(store, key, new StringSerializer());
     }

@@ -5,29 +5,25 @@ import org.apache.kafka.streams.state.StreamsMetadata;
 
 import javax.ws.rs.NotFoundException;
 import java.util.Collection;
-import java.util.List;
+import java.util.Iterator;
 import java.util.stream.Collectors;
 
 /**
- * Looks up StreamsMetadata from KafkaStreams and converts the results
- * into Beans that can be JSON serialized via Jersey.
+ * Looks up StreamsMetadata from KafkaStreams and converts the results to JSON strings.
  */
 public class MetadataService {
-
     private final KafkaStreams streams;
-
     public MetadataService(final KafkaStreams streams) {
         this.streams = streams;
     }
-
     /**
      * Get the metadata for all of the instances of this Kafka Streams application
      * @return List of {@link HostStoreInfo}
      */
-    public List<HostStoreInfo> streamsMetadata() {
+    public String streamsMetadata() {
         // Get metadata for all of the instances of this Kafka Streams application
         final Collection<StreamsMetadata> metadata = streams.allMetadata();
-        return mapInstancesToHostStoreInfo(metadata);
+        return  jsonMetadata(metadata);
     }
 
     /**
@@ -36,10 +32,10 @@ public class MetadataService {
      * @param store   The store to locate
      * @return  List of {@link HostStoreInfo}
      */
-    public List<HostStoreInfo> streamsMetadataForStore(final  String store) {
+    public String streamsMetadataForStore(final  String store) {
         // Get metadata for all of the instances of this Kafka Streams application hosting the store
         final Collection<StreamsMetadata> metadata = streams.allMetadataForStore(store);
-        return mapInstancesToHostStoreInfo(metadata);
+        return jsonMetadata(metadata);
     }
 
     /**
@@ -49,11 +45,9 @@ public class MetadataService {
      * @param key     The key to find
      * @return {@link HostStoreInfo}
      */
-    public <K> HostStoreInfo streamsMetadataForStoreAndKey(final String store,
-                                                           final K key,
-                                                           final Serializer<K> serializer) {
-        // Get metadata for the instances of this Kafka Streams application hosting the store and
-        // potentially the value for key
+    public String streamsMetadataForStoreAndKey(final String store,
+                                                           final String key,
+                                                           final Serializer<String> serializer) {
         final StreamsMetadata metadata = streams.metadataForKey(store, key, serializer);
         if (metadata == null) {
             throw new NotFoundException();
@@ -61,15 +55,22 @@ public class MetadataService {
 
         return new HostStoreInfo(metadata.host(),
                 metadata.port(),
-                metadata.stateStoreNames());
+                metadata.stateStoreNames()).toString();
     }
 
-    private List<HostStoreInfo> mapInstancesToHostStoreInfo(
-            final Collection<StreamsMetadata> metadatas) {
-        return metadatas.stream().map(metadata -> new HostStoreInfo(metadata.host(),
-                metadata.port(),
-                metadata.stateStoreNames()))
-                .collect(Collectors.toList());
+    private String jsonMetadata(final Collection<StreamsMetadata> metadatas) {
+        String json = "[";
+        Integer i = 0;
+        Iterator<StreamsMetadata> hostInfos = metadatas.stream().collect(Collectors.toList()).iterator();
+        while(hostInfos.hasNext()){
+            StreamsMetadata metadata =  hostInfos.next();
+            if(i!=0)
+                json += ",";
+            json += new HostStoreInfo(metadata.host(),
+                                metadata.port(),
+                                metadata.stateStoreNames()).toString();
+        }
+        json += "]";
+        return  json;
     }
-
 }
