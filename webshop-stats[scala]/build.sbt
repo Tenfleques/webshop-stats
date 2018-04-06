@@ -2,9 +2,9 @@ name := "web-shop-stats"
 
 version := "1.0"
 
-scalaVersion := "2.12.0"
+scalaVersion := "2.11.0"
 lazy val scalaTestVersion = "3.0.1"
-lazy val sparkVersion = "2.1.0"
+lazy val sparkVersion = "2.3.0"
 
 resolvers ++= Seq(
   "apache-snapshots" at "http://repository.apache.org/snapshots/",
@@ -21,5 +21,8 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-sql" % sparkVersion % "compile",
   "org.apache.spark" %% "spark-streaming" % sparkVersion % "compile",
   "org.apache.spark" % "spark-streaming-kafka-0-10_2.11" % sparkVersion % "compile",
-  "org.apache.kafka" % "kafka-streams" % "1.1.0"
+  "org.apache.kafka" % "kafka-streams" % "1.1.0",
+  "org.apache.kafka" % "kafka-clients" % "1.1.0",
+  "com.typesafe.scala-logging" %% "scala-logging" % "3.1.0",
+  "org.slf4j" % "slf4j-api" % "1.7.10"
 )
