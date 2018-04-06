@@ -1,0 +1,87 @@
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+18/04/02 17:16:03 WARN Utils: Your hostname, blackhawk resolves to a loopback address: 127.0.0.1; using 192.168.1.3 instead (on interface wlan0)
+18/04/02 17:16:03 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+18/04/02 17:16:05 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+18/04/02 17:16:06 WARN Checkpoint: Checkpoint directory /tmp/refs-xyzabbcdcddc does not exist
+18/04/02 17:16:06 INFO SparkContext: Running Spark version 2.3.0
+18/04/02 17:16:06 INFO SparkContext: Submitted application: webshop-referee-stats-xyzabcddcdd
+18/04/02 17:16:06 INFO SecurityManager: Changing view acls to: blackjack
+18/04/02 17:16:06 INFO SecurityManager: Changing modify acls to: blackjack
+18/04/02 17:16:06 INFO SecurityManager: Changing view acls groups to: 
+18/04/02 17:16:06 INFO SecurityManager: Changing modify acls groups to: 
+18/04/02 17:16:06 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(blackjack); groups with view permissions: Set(); users  with modify permissions: Set(blackjack); groups with modify permissions: Set()
+18/04/02 17:16:06 INFO Utils: Successfully started service 'sparkDriver' on port 42515.
+18/04/02 17:16:06 INFO SparkEnv: Registering MapOutputTracker
+18/04/02 17:16:07 INFO SparkEnv: Registering BlockManagerMaster
+18/04/02 17:16:07 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+18/04/02 17:16:07 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+18/04/02 17:16:07 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-6f618101-73ce-4906-862b-c486646ebcda
+18/04/02 17:16:07 INFO MemoryStore: MemoryStore started with capacity 477.3 MB
+18/04/02 17:16:07 INFO SparkEnv: Registering OutputCommitCoordinator
+18/04/02 17:16:07 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+18/04/02 17:16:07 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.1.3:4040
+18/04/02 17:16:08 INFO Executor: Starting executor ID driver on host localhost
+18/04/02 17:16:08 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 38237.
+18/04/02 17:16:08 INFO NettyBlockTransferService: Server created on 192.168.1.3:38237
+18/04/02 17:16:08 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+18/04/02 17:16:08 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.1.3, 38237, None)
+18/04/02 17:16:08 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.3:38237 with 477.3 MB RAM, BlockManagerId(driver, 192.168.1.3, 38237, None)
+18/04/02 17:16:08 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.1.3, 38237, None)
+18/04/02 17:16:08 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.1.3, 38237, None)
+18/04/02 17:16:09 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 96.0 B, free 477.3 MB)
+18/04/02 17:16:09 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 63.0 B, free 477.3 MB)
+18/04/02 17:16:09 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 192.168.1.3:38237 (size: 63.0 B, free: 477.3 MB)
+18/04/02 17:16:09 INFO SparkContext: Created broadcast 0 from broadcast at RefereeStats.scala:30
+18/04/02 17:16:09 WARN KafkaUtils: overriding enable.auto.commit to false for executor
+18/04/02 17:16:09 WARN KafkaUtils: overriding auto.offset.reset to none for executor
+18/04/02 17:16:09 WARN KafkaUtils: overriding executor group.id to spark-executor-streamer-xxx-xyzabcdddc
+18/04/02 17:16:09 WARN KafkaUtils: overriding receive.buffer.bytes to 65536 see KAFKA-3135
+Exception in thread "main" org.apache.spark.SparkException: Task not serializable
+	at org.apache.spark.util.ClosureCleaner$.ensureSerializable(ClosureCleaner.scala:345)
+	at org.apache.spark.util.ClosureCleaner$.org$apache$spark$util$ClosureCleaner$$clean(ClosureCleaner.scala:335)
+	at org.apache.spark.util.ClosureCleaner$.clean(ClosureCleaner.scala:159)
+	at org.apache.spark.SparkContext.clean(SparkContext.scala:2292)
+	at org.apache.spark.streaming.dstream.DStream$$anonfun$map$1.apply(DStream.scala:547)
+	at org.apache.spark.streaming.dstream.DStream$$anonfun$map$1.apply(DStream.scala:547)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:151)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:112)
+	at org.apache.spark.SparkContext.withScope(SparkContext.scala:692)
+	at org.apache.spark.streaming.StreamingContext.withScope(StreamingContext.scala:265)
+	at org.apache.spark.streaming.dstream.DStream.map(DStream.scala:546)
+	at bigdata.project.system.RefereeStats.go(RefereeStats.scala:37)
+	at bigdata.project.system.RefereeStats$$anonfun$7.apply(RefereeStats.scala:119)
+	at bigdata.project.system.RefereeStats$$anonfun$7.apply(RefereeStats.scala:119)
+	at scala.Option.getOrElse(Option.scala:120)
+	at org.apache.spark.streaming.StreamingContext$.getOrCreate(StreamingContext.scala:828)
+	at bigdata.project.system.RefereeStats.<init>(RefereeStats.scala:119)
+	at bigdata.project.system.Application$.delayedEndpoint$bigdata$project$system$Application$1(Application.scala:6)
+	at bigdata.project.system.Application$delayedInit$body.apply(Application.scala:3)
+	at scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+	at scala.App$$anonfun$main$1.apply(App.scala:76)
+	at scala.App$$anonfun$main$1.apply(App.scala:76)
+	at scala.collection.immutable.List.foreach(List.scala:383)
+	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:35)
+	at scala.App$class.main(App.scala:76)
+	at bigdata.project.system.Application$.main(Application.scala:3)
+	at bigdata.project.system.Application.main(Application.scala)
+Caused by: java.io.NotSerializableException: bigdata.project.system.RefereeStats
+Serialization stack:
+	- object not serializable (class: bigdata.project.system.RefereeStats, value: bigdata.project.system.RefereeStats@507d20bb)
+	- field (class: bigdata.project.system.RefereeStats$$anonfun$4, name: $outer, type: class bigdata.project.system.RefereeStats)
+	- object (class bigdata.project.system.RefereeStats$$anonfun$4, <function1>)
+	at org.apache.spark.serializer.SerializationDebugger$.improveException(SerializationDebugger.scala:40)
+	at org.apache.spark.serializer.JavaSerializationStream.writeObject(JavaSerializer.scala:46)
+	at org.apache.spark.serializer.JavaSerializerInstance.serialize(JavaSerializer.scala:100)
+	at org.apache.spark.util.ClosureCleaner$.ensureSerializable(ClosureCleaner.scala:342)
+	... 27 more
+18/04/02 17:16:09 INFO SparkContext: Invoking stop() from shutdown hook
+18/04/02 17:16:09 INFO SparkUI: Stopped Spark web UI at http://192.168.1.3:4040
+18/04/02 17:16:10 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+18/04/02 17:16:10 INFO MemoryStore: MemoryStore cleared
+18/04/02 17:16:10 INFO BlockManager: BlockManager stopped
+18/04/02 17:16:10 INFO BlockManagerMaster: BlockManagerMaster stopped
+18/04/02 17:16:10 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+18/04/02 17:16:10 INFO SparkContext: Successfully stopped SparkContext
+18/04/02 17:16:10 INFO ShutdownHookManager: Shutdown hook called
+18/04/02 17:16:10 INFO ShutdownHookManager: Deleting directory /tmp/spark-73d61e84-d364-442f-a758-1f85901118a0

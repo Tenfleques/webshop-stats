@@ -2,119 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e11f63c7-ab82-47d7-adbe-022d896315c3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../clients-simulator/config.json" afterPath="$PROJECT_DIR$/../clients-simulator/config.json" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_6_7_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_7_9_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_6_7_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/.idea/libraries/sbt__net_jpountz_lz4_lz4_1_3_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/.idea/libraries/sbt__org_apache_kafka_kafka_clients_0_10_0_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_5_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/.idea/libraries/sbt__org_scalactic_scalactic_2_11_3_0_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/.idea/libraries/sbt__org_scalatest_scalatest_2_11_3_0_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/.idea/libraries/sbt__org_xerial_snappy_snappy_java_1_1_2_6_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/.idea/modules/webshop-stats-scala-.iml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/.idea/modules/webshop-stats-scala-.iml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/build.sbt" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/build.sbt" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/config-classes/$d3c15d834070018da105$$anonfun$$sbtdef$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/config-classes/$d3c15d834070018da105$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/config-classes/$d3c15d834070018da105.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/config-classes/$d3c15d834070018da105.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-compile-internal.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-compile.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-docs.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-docs.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-optional.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-plugin.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-pom.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-provided.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-runtime.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-scala-tool.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-sources.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-sources.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-test-internal.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-test.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/webshop-stats-scala-build-webshop-stats-scala-build-test.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/webshop-stats-scala-build/webshop-stats-scala-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/webshop-stats-scala-build/webshop-stats-scala-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/webshop-stats-scala-build/webshop-stats-scala-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/scala-2.10/sbt-0.13/resolution-cache/webshop-stats-scala-build/webshop-stats-scala-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/streams/$global/update/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/src/main/scala/bigdata/project/system/Application.scala" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/src/main/scala/bigdata/project/system/Application.scala" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/src/main/scala/bigdata/project/system/DateIncidenceStats.scala" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/src/main/scala/bigdata/project/system/DateIncidenceStats.scala" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/src/main/scala/bigdata/project/system/KafkaSink.scala" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/src/main/scala/bigdata/project/system/KafkaSink.scala" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/src/main/scala/bigdata/project/system/RefereeStats.scala" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/src/main/scala/bigdata/project/system/RefereeStats.scala" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/Application$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/Application$delayedInit$body.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/Application.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats$$anonfun$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats$$anonfun$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats$$anonfun$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats$$anonfun$4.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/DateIncidenceStats.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/ItemIncidenceStats$$anonfun$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/ItemIncidenceStats$$anonfun$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/ItemIncidenceStats$$anonfun$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/ItemIncidenceStats$$anonfun$4.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/ItemIncidenceStats.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/KafkaSink.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/Pipe$$anonfun$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/Pipe.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/PlatformStats$$anonfun$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/PlatformStats$$anonfun$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/PlatformStats$$anonfun$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/PlatformStats$$anonfun$4.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/PlatformStats.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$4.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$5.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$6.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$7.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/RefereeStats.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/package$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/classes/bigdata/project/system/package.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-compile.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-docs.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-docs.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-optional.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-plugin.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-pom.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-provided.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-runtime.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-sources.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-sources.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-test.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats$sources_2.11-test.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-compile.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-docs.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-docs.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-optional.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-plugin.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-pom.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-provided.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-runtime.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-sources.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-sources.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-test.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/reports/web-shop-stats-web-shop-stats_2.11-test.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/web-shop-stats/web-shop-stats$sources_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/web-shop-stats/web-shop-stats$sources_2.11/1.0/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/web-shop-stats/web-shop-stats$sources_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/web-shop-stats/web-shop-stats$sources_2.11/1.0/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/web-shop-stats/web-shop-stats_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/web-shop-stats/web-shop-stats_2.11/1.0/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/web-shop-stats/web-shop-stats_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/scala-2.11/resolution-cache/web-shop-stats/web-shop-stats_2.11/1.0/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/$global/update/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/$global/updateClassifiers/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/test/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../webshop-stats[scala]/target/streams/test/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/referer-sales.json" afterPath="$PROJECT_DIR$/src/main/resources/referer-sales.json" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Pipe.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/Pipe.java">
+      <file leaf-file-name="Aggregate.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/Aggregate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="199">
+              <caret line="131" column="62" lean-forward="true" selection-start-line="131" selection-start-column="62" selection-end-line="131" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,19 +26,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Aggregate.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/Aggregate.java">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+            <state relative-caret-position="544">
+              <caret line="112" column="94" lean-forward="false" selection-start-line="112" selection-start-column="94" selection-end-line="112" selection-end-column="94" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MetadataService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/MetadataService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RPCService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/RPCService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding>
+                <element signature="e#3228#3229#0" expanded="true" />
+                <element signature="e#3295#3296#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>builder</find>
+      <find>startRestProxy</find>
+      <find>asse</find>
+      <find>link</find>
+      <find>com.sun.jersey</find>
+      <find>streamsMetadata</find>
+      <find>windowedByKey</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -164,10 +105,33 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.idea/.name" />
-        <option value="$PROJECT_DIR$/src/main/java/bigdata/project/Pipe.java" />
         <option value="$PROJECT_DIR$/src/main/scala/bigdata.project/RefereeStats.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/README.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/bigdata/project/Pipe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bigdata/project/KafkaMusicExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rest/HostStoreInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rest/KeyValueBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rest/Service.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rest/MetadataService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rest/RPCService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rest/project/Aggregate.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/platform-count.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/platform-sales.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/platform-value.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/referer-count.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/referer-value.json" />
+        <option value="$PROJECT_DIR$/src/main/java/bigdata/project/KeyValueBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bigdata/project/WebRecord.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.json" />
+        <option value="$PROJECT_DIR$/src/main/java/bigdata/project/ApplicationExceptions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bigdata/project/KeyNotFoundException.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/bigdata/project/HostStoreInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bigdata/project/MetadataService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bigdata/project/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bigdata/project/RPCService.java" />
         <option value="$PROJECT_DIR$/src/main/java/bigdata/project/Aggregate.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/referer-sales.json" />
       </list>
     </option>
   </component>
@@ -216,10 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,22 +213,37 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bigdata.project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webshop-stats[java]" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="bigdata.project" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -307,9 +282,9 @@
     </configuration>
     <configuration name="run" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="bigdata.project.Aggregate" />
+      <option name="MAIN_CLASS_NAME" value="bigdata.project.Application" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/src/main/resources/config.json" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -409,47 +384,90 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="31" width="1370" height="689" extended-state="6" />
-    <editor active="true" />
+    <frame x="681" y="31" width="1370" height="689" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290441" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290441" sideWeight="0.42069486" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290441" sideWeight="0.59063447" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290441" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32536766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290441" sideWeight="0.40936556" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32536766" sideWeight="0.47583082" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1344411" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1389728" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889705" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290441" sideWeight="0.49697885" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/Pipe.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="112" column="94" lean-forward="false" selection-start-line="112" selection-start-column="94" selection-end-line="112" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/RPCService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="82" column="7" lean-forward="true" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+          <folding>
+            <element signature="e#3228#3229#0" expanded="true" />
+            <element signature="e#3295#3296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/MetadataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="66" column="20" lean-forward="true" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/Aggregate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -459,13 +477,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/WebRecord.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/RPCService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="60" lean-forward="false" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
+          <folding>
+            <element signature="e#3228#3229#0" expanded="true" />
+            <element signature="e#3295#3296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/KeyValueBean.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/MetadataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/HostStoreInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="75" column="42" lean-forward="false" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.json" />
     <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/Pipe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -473,9 +531,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/Pipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/Pipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -491,9 +563,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -557,28 +627,100 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/MaskAvg.java" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata.project/RefereeStats.scala" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-streams/1.0.1/kafka-streams-1.0.1-sources.jar!/org/apache/kafka/streams/processor/internals/TaskManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="117" column="21" lean-forward="false" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="21" />
+        <state relative-caret-position="113">
+          <caret line="317" column="0" lean-forward="false" selection-start-line="317" selection-start-column="0" selection-end-line="317" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/referer.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/referer-count.json/README.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/Pipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/Pipe.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/README.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/KafkaMusicExample.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/platform-count.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/platform-sales.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/platform-value.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/referer-count.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/referer-value.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/KeyNotFoundException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/WebRecord.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/KeyValueBean.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/MetadataService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="855">
+          <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/HostStoreInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="56" column="16" lean-forward="false" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="155" column="21" lean-forward="true" selection-start-line="155" selection-start-column="21" selection-end-line="155" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/referer-sales.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/RPCService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="e#3228#3229#0" expanded="true" />
+            <element signature="e#3295#3296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="112" column="94" lean-forward="false" selection-start-line="112" selection-start-column="94" selection-end-line="112" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bigdata/project/Aggregate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        <state relative-caret-position="199">
+          <caret line="131" column="62" lean-forward="true" selection-start-line="131" selection-start-column="62" selection-end-line="131" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -643,7 +785,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
