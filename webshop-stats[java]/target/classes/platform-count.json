@@ -1,0 +1,10 @@
+{
+  "name" : "Platform-Hit-Count",
+  "description" : "count number of Hits against devices",
+  "key" : "PLATFORM",
+  "statistic" : "COUNT",
+  "brokers" : ["localhost:9092"],
+  "topic" : "clients-purchases-src",
+  "restUrl" : "localhost",
+  "restPort" : "1010"
+}
