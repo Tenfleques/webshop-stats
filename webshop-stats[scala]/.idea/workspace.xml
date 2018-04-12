@@ -2,6 +2,264 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1553a101-a9f1-439c-a4e2-571b1a965eaa" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/bkupfiles/dot.RPCService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/chart-table.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/css/app.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/css/charts.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/css/login-style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/css/splash.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/font-awesome/css/_notes/dwsync.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/font-awesome/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/font-awesome/css/font-awesome.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/font-awesome/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/font-awesome/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/font-awesome/fonts/_notes/dwsync.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/img/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/js/charts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/js/data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/js/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/js/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/libs/app.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/libs/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/libs/functions.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/libs/jquery.flot.categories.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/libs/jquery.flot.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/libs/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/libs/popper.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/libs/splash.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/license.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/splash.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/app/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/credits.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/icudtl.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/lib/libffmpeg.so" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/lib/libnode.so" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/lib/libnw.so" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/am.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/am.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/ar.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/ar.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/bg.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/bg.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/bn.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/bn.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/ca.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/ca.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/cs.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/cs.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/da.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/da.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/de.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/de.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/el.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/el.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/en-GB.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/en-GB.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/en-US.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/en-US.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/es-419.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/es-419.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/es.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/es.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/et.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/et.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/fa.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/fa.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/fi.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/fi.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/fil.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/fil.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/fr.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/fr.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/gu.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/gu.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/he.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/he.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/hi.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/hi.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/hr.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/hr.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/hu.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/hu.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/id.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/id.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/it.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/it.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/ja.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/ja.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/kn.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/kn.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/ko.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/ko.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/lt.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/lt.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/lv.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/lv.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/ml.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/ml.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/mr.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/mr.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/ms.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/ms.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/nb.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/nb.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/nl.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/nl.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/pl.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/pl.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/pt-BR.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/pt-BR.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/pt-PT.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/pt-PT.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/ro.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/ro.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/ru.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/ru.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/sk.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/sk.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/sl.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/sl.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/sr.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/sr.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/sv.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/sv.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/sw.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/sw.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/ta.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/ta.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/te.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/te.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/th.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/th.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/tr.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/tr.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/uk.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/uk.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/vi.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/vi.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/zh-CN.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/zh-CN.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/zh-TW.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/locales/zh-TW.pak.info" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/natives_blob.bin" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/nw" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/nw_100_percent.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/nw_200_percent.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/resources.pak" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/snapshot_blob.bin" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/swiftshader/libEGL.so" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../bi/nw/swiftshader/libGLESv2.so" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../clients-simulator/hello.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../project/target/config-classes/$176fbee4ed5b1647a255$.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../project/target/config-classes/$176fbee4ed5b1647a255.cache" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../project/target/config-classes/$176fbee4ed5b1647a255.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../refree-stats-out" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/.history" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/default/webshop-stats$sources/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/default/webshop-stats$sources/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/default/webshop-stats_2.12/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/default/webshop-stats_2.12/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats$sources-compile-internal.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats$sources-compile.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats$sources-optional.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats$sources-plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats$sources-pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats$sources-provided.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats$sources-runtime-internal.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats$sources-runtime.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats$sources-scala-tool.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats$sources-test-internal.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats$sources-test.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats_2.12-compile-internal.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats_2.12-compile.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats_2.12-optional.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats_2.12-plugin.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats_2.12-pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats_2.12-provided.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats_2.12-runtime-internal.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats_2.12-runtime.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats_2.12-scala-tool.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats_2.12-test-internal.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/default-webshop-stats_2.12-test.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/ivy-report.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/scala-2.12/resolution-cache/reports/ivy-report.xsl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/$global/$global/dumpStructure/$global/streams/out" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/$global/ivySbt/$global/streams/out" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/$global/projectDescriptors/$global/streams/out" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/$global/update/$global/streams/out" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/compile/managedClasspath/$global/streams/export" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/compile/unmanagedClasspath/$global/streams/export" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/compile/unmanagedJars/$global/streams/export" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/runtime/unmanagedClasspath/$global/streams/export" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/runtime/unmanagedJars/$global/streams/export" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/test/managedClasspath/$global/streams/export" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/test/unmanagedClasspath/$global/streams/export" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../target/streams/test/unmanagedJars/$global/streams/export" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[java]/target/classes/README.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[java]/target/classes/bigdata/project/Aggregate$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[java]/target/classes/bigdata/project/Application.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[java]/target/classes/bigdata/project/HostStoreInfo.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[java]/target/classes/bigdata/project/KeyNotFoundException.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[java]/target/classes/bigdata/project/MetadataService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[java]/target/classes/bigdata/project/RPCService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[java]/target/classes/bigdata/project/WebRecord.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[java]/target/classes/config.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[java]/target/classes/platform-count.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[java]/target/classes/platform-sales.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[java]/target/classes/platform-value.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[java]/target/classes/referer-count.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[java]/target/classes/referer-sales.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[java]/target/classes/referer-value.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$0ceed82e92293c59012e$$anonfun$$sbtdef$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$0ceed82e92293c59012e$.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$0ceed82e92293c59012e.cache" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$0ceed82e92293c59012e.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$df2529900617debaac24$$anonfun$$sbtdef$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$df2529900617debaac24$.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$df2529900617debaac24.cache" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$df2529900617debaac24.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/KafkaSink$$anonfun$writeToKafka$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$go$1$$anonfun$apply$1$$anonfun$apply$2.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$go$1$$anonfun$apply$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$go$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$go$2$$anonfun$apply$3$$anonfun$apply$4.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$go$2$$anonfun$apply$3.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$go$2.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$go$3$$anonfun$apply$5$$anonfun$apply$6.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$go$3$$anonfun$apply$5.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/bigdata/project/system/RefereeStats$$anonfun$go$3.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/org.scala-sbt.temp/temp-module-750703454be73072ce64f1c215ff85550284ae5b/0.13.17/resolved.xml.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/org.scala-sbt.temp/temp-module-750703454be73072ce64f1c215ff85550284ae5b/0.13.17/resolved.xml.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/org.scala-sbt.temp-temp-module-750703454be73072ce64f1c215ff85550284ae5b-component.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../webshop-stats[spark] /.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../bi/.vscode/launch.json" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../bi/config.json" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../bi/index.js" afterPath="" />
@@ -1261,7 +1519,7 @@
       <change beforePath="$PROJECT_DIR$/../bi/node_modules/extend/component.json" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../bi/node_modules/extend/index.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../bi/node_modules/extend/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../bi/node_modules/extsprintf/.gitmodules" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../bi/node_modules/extsprintf/.gitmodules" afterPath="$PROJECT_DIR$/../bi/app/css/index.html" />
       <change beforePath="$PROJECT_DIR$/../bi/node_modules/extsprintf/.npmignore" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../bi/node_modules/extsprintf/LICENSE" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../bi/node_modules/extsprintf/Makefile" afterPath="" />
@@ -2760,6 +3018,7 @@
       <change beforePath="$PROJECT_DIR$/../bi/node_modules/nested-error-stacks/CHANGELOG.md" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../bi/node_modules/nested-error-stacks/LICENSE" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../bi/node_modules/nested-error-stacks/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../bi/node_modules/nested-error-stacks/README.md~" afterPath="$PROJECT_DIR$/../bi/app/font-awesome/index.html" />
       <change beforePath="$PROJECT_DIR$/../bi/node_modules/nested-error-stacks/index.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../bi/node_modules/nested-error-stacks/package.json" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../bi/node_modules/next-tick/.lint" afterPath="" />
@@ -2813,7 +3072,7 @@
       <change beforePath="$PROJECT_DIR$/../bi/node_modules/node-gyp/gyp/pylib/gyp/easy_xml.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../bi/node_modules/node-gyp/gyp/pylib/gyp/easy_xml_test.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../bi/node_modules/node-gyp/gyp/pylib/gyp/flock_tool.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../bi/node_modules/node-gyp/gyp/pylib/gyp/generator/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../bi/node_modules/node-gyp/gyp/pylib/gyp/generator/__init__.py" afterPath="$PROJECT_DIR$/../bi/app/img/index.html" />
       <change beforePath="$PROJECT_DIR$/../bi/node_modules/node-gyp/gyp/pylib/gyp/generator/analyzer.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../bi/node_modules/node-gyp/gyp/pylib/gyp/generator/android.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../bi/node_modules/node-gyp/gyp/pylib/gyp/generator/cmake.py" afterPath="" />
@@ -3634,7 +3893,7 @@
       <file leaf-file-name="RefereeStats.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/RefereeStats.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="-585">
               <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
               <folding />
             </state>
@@ -4313,7 +4572,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/tor.log" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/bigdata/project/system/RefereeStats.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="-585">
           <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
           <folding />
         </state>
