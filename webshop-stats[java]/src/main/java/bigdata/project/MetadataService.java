@@ -13,8 +13,8 @@ import java.util.stream.Collectors;
  */
 public class MetadataService {
     private final KafkaStreams streams;
-    public MetadataService(final KafkaStreams streams) {
-        this.streams = streams;
+    public MetadataService(final KafkaStreams st) {
+        this.streams = st;
     }
     /**
      * Get the metadata for all of the instances of this Kafka Streams application

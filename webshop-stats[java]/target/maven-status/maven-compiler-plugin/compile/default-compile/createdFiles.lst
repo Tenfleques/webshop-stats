@@ -5,6 +5,6 @@ bigdata/project/RPCService.class
 bigdata/project/Pipe$1.class
 bigdata/project/HostStoreInfo.class
 bigdata/project/KeyNotFoundException.class
+bigdata/project/Aggregate$1.class
 bigdata/project/WebRecord.class
-bigdata/project/KeyValueBean.class
 bigdata/project/Aggregate.class

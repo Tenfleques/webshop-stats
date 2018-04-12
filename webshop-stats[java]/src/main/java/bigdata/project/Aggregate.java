@@ -64,18 +64,19 @@ public class Aggregate{
         }
         //expose the available REST endpoints
         String info = "\n" +
-                "*available endpoints :\n" +
+                "* available endpoints :\n" +
                 "*\t     http://"+rpcEndpoint+":"+rpcPort+"/stats/"+storeName+"/all\n" +
                 //TODO create platform to query the state of the given list
                 //"*\t     http://"+rpcEndpoint+":"+rpcPort+"/"+storeName+"/{listofkeys}\n" +
                 "*\t     http://"+rpcEndpoint+":"+rpcPort+"/instances\n" +
                 "*\t     http://"+rpcEndpoint+":"+rpcPort+"/instances/"+storeName+"\n" +
-                "*\t     http://"+rpcEndpoint+":"+rpcPort+"/instance/"+storeName+"/{key}";
+                "*\t     http://"+rpcEndpoint+":"+rpcPort+"/instance/"+storeName+"/{key}\n\n";
         System.out.print(info);
 
         streams.start();
         final RPCService restService =  startRestProxy(streams,rpcPort);
         final CountDownLatch latch = new CountDownLatch(1);
+
         try{
             latch.await();
         }catch (Throwable e){

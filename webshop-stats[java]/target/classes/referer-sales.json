@@ -1,0 +1,10 @@
+{
+  "name" : "Referer-Sales-Count",
+  "description" : "Count the number of items bought per referer",
+  "key" : "REFERER",
+  "statistic" : "PURCHASES",
+  "brokers" : ["localhost:9092"],
+  "topic" : "clients-purchases-src",
+  "restUrl" : "localhost",
+  "restPort" : "1010"
+}

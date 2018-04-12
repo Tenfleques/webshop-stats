@@ -34,9 +34,9 @@ public class RPCService {
     private final MetadataService metadataService;
     private Server jettyServer;
 
-    RPCService(final KafkaStreams streams) {
-        this.streams = streams;
-        this.metadataService = new MetadataService(streams);
+    RPCService(final KafkaStreams st) {
+        this.streams = st;
+        this.metadataService = new MetadataService(st);
     }
     private String buildJson(KeyValueIterator<String,String> streamData){
         String json = "[";
@@ -61,27 +61,13 @@ public class RPCService {
      * store
      */
     @GET()
-    @Path("/stats/{storeName}/all")
+    @Path("stats/{storeName}/all")
     @Produces(MediaType.APPLICATION_JSON)
     public String allForStore(@PathParam("storeName") final String storeName) {
-        return buildJson(streams.store(storeName, QueryableStoreTypes.<String, String>keyValueStore()).all());
+        streams.store(storeName, QueryableStoreTypes.<String, String>keyValueStore()).all();
+        return "hello mars";
     }
 
-
-    /**
-     * Get all of the key-value pairs that have keys within the range from...to
-     * @param //storeName   store to query
-     * @param //[keys]        start of the range (inclusive)
-     * @return A JsonArray representing the key-value pairs for the given list of keys  in the provided
-     */
-    /*@GET()
-    @Path("/stats/{storeName}/range/{listofkeys}")
-    @Produces(MediaType.APPLICATION_JSON)
-    public String keyRangeForStore(@PathParam("storeName") final String storeName,
-                                               @PathParam("from") final String from,
-                                               @PathParam("to") final String to) {
-        return buildJson(streams.store(storeName, QueryableStoreTypes.<String, String>keyValueStore()).range(from, to));
-    }*/
     @GET()
     @Path("/instances")
     @Produces(MediaType.APPLICATION_JSON)
