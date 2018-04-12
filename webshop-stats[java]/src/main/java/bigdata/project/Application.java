@@ -104,9 +104,6 @@ public class Application {
                 BROKERS += (BROKERS.length() == 0) ? "" : ",";
                 BROKERS += broker;
             }
-
-
-
             // application can only run one stats at a given time
             // statistics available for referee agent
             try {
