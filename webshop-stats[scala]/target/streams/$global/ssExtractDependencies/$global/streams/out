@@ -1,4 +1,4 @@
-sbt.ResolveException: unresolved dependency: org.apaсhe.kafka#kafka-clients;1.1.0: not found
+sbt.ResolveException: download failed: javax.ws.rs#javax.ws.rs-api;2.1!javax.ws.rs-api.${packaging.type}
 	at sbt.IvyActions$.sbt$IvyActions$$resolve(IvyActions.scala:320)
 	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:191)
 	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:168)
@@ -49,4 +49,4 @@ sbt.ResolveException: unresolved dependency: org.apaсhe.kafka#kafka-clients;1.1
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-[error] (*:ssExtractDependencies) sbt.ResolveException: unresolved dependency: org.apaсhe.kafka#kafka-clients;1.1.0: not found
+[error] (*:ssExtractDependencies) sbt.ResolveException: download failed: javax.ws.rs#javax.ws.rs-api;2.1!javax.ws.rs-api.${packaging.type}

@@ -4,7 +4,7 @@
 		module="web-shop-stats_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20180401192928"
+		publication="20180412232353"
 	>
 		<description>
 		web-shop-stats
@@ -40,10 +40,9 @@
 		<dependency org="org.apache.spark" name="spark-streaming-kafka-0-10_2.11" rev="2.3.0" conf="compile->default(compile)"/>
 		<dependency org="org.apache.kafka" name="kafka-streams" rev="1.1.0" conf="compile->default(compile)"/>
 		<dependency org="org.apache.kafka" name="kafka-clients" rev="1.1.0" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.scala-logging" name="scala-logging_2.11" rev="3.1.0" conf="compile->default(compile)"/>
 		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.10" conf="compile->default(compile)"/>
-		<override org="com.fasterxml.jackson.core" module="jackson-core" matcher="exact" rev="2.8.7"/>
-		<override org="com.fasterxml.jackson.core" module="jackson-databind" matcher="exact" rev="2.8.7"/>
-		<override org="com.fasterxml.jackson.module" module="jackson-module-scala_2.11" matcher="exact" rev="2.8.7"/>
+		<dependency org="org.eclipse.jetty" name="jetty-server" rev="9.2.12.v20150709" conf="compile->default(compile)"/>
+		<dependency org="org.eclipse.jetty" name="jetty-servlet" rev="9.2.12.v20150709" conf="compile->default(compile)"/>
+		<dependency org="org.glassfish.jersey.media" name="jersey-media-json-jackson" rev="2.19" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

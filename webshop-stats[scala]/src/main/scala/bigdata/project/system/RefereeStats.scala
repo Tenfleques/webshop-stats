@@ -11,10 +11,10 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 import org.slf4j.LoggerFactory
 
 class RefereeStats(brokers:String,topics: String) extends LazyLogging {
-  val CHECKOUTDIR = "/tmp/refs-xyzabbcdcddc"
+  val CHECKOUTDIR = "/tmp/refs"
   val REFERER_INDEX = 3
   def go(): StreamingContext = { //required 0 for count, 1 for value, 2 for purchases
-    val conf = new SparkConf().setAppName("webshop-referee-stats-xyzabcddcdd").setMaster("local[2]")
+    val conf = new SparkConf().setAppName("webshop-referee-stats").setMaster("local[2]")
     val ssc = new StreamingContext(conf, Seconds(5))
     val logger = Logger(LoggerFactory.getLogger(this.getClass))
 
@@ -23,7 +23,7 @@ class RefereeStats(brokers:String,topics: String) extends LazyLogging {
       "bootstrap.servers" -> brokers,
       "key.deserializer" -> classOf[StringDeserializer],
       "value.deserializer" -> classOf[StringDeserializer],
-      "group.id" -> "streamer-xxx-xyzabcdddc",
+      "group.id" -> "streamer-xxx-",
       "auto.offset.reset" -> "latest",
       "enable.auto.commit" -> (false: java.lang.Boolean)
     )
