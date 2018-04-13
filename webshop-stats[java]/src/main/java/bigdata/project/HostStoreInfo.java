@@ -54,7 +54,7 @@ public class HostStoreInfo {
                         +"\"host\": \"" + host + "\","
                         +"\"port\": \"" + port + "\","
                         +"\"storeNames\": " + storeNames +
-                '}';
+                "}}";
     }
 
     @Override

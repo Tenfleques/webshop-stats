@@ -107,9 +107,11 @@ public class Application {
             // application can only run one stats at a given time
             // statistics available for referee agent
             try {
-                new Aggregate(KEY_FIELD,BROKERS,TOPIC,STATISTIC_FIELD,ENDPOINT,ENDPOINT_PORT);
+                new RedisSink("localhost",6379);
+                //new Aggregate(KEY_FIELD,BROKERS,TOPIC,STATISTIC_FIELD,ENDPOINT,ENDPOINT_PORT);
             }catch (Exception e ){
-
+                System.out.print(e.getMessage());
+                e.printStackTrace();
             }
 
         }catch (FileNotFoundException e){
