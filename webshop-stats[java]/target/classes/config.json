@@ -1,8 +1,4 @@
 {
-  "name" : "Referer-Hit-Count",
-  "description" : "count number of Hits against referer",
-  "key" : "REFERER",
-  "statistic" : "COUNT",
   "brokers" : ["localhost:9092"],
   "topic" : "clients-purchases-in",
   "restUrl" : "localhost",

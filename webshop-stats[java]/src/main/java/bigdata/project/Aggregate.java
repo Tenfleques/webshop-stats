@@ -1,10 +1,7 @@
 package bigdata.project;
 
 import org.apache.kafka.common.serialization.Serdes;
-import org.apache.kafka.streams.KafkaStreams;
-import org.apache.kafka.streams.StreamsBuilder;
-import org.apache.kafka.streams.StreamsConfig;
-import org.apache.kafka.streams.Topology;
+import org.apache.kafka.streams.*;
 import org.apache.kafka.streams.kstream.KGroupedStream;
 import org.apache.kafka.streams.kstream.KStream;
 import org.apache.kafka.streams.kstream.Materialized;
@@ -13,8 +10,7 @@ import org.apache.kafka.streams.processor.WallclockTimestampExtractor;
 
 import java.io.File;
 import java.nio.file.Files;
-import java.util.Date;
-import java.util.Properties;
+import java.util.*;
 import java.util.concurrent.CountDownLatch;
 
 /*
@@ -25,21 +21,24 @@ import java.util.concurrent.CountDownLatch;
 //19,1499882547,Platform e.g Android 4.0.2,instagram.*,HTC Desire HD,0,5000
 public class Aggregate{
     private final String topic;
-    private String storeName;
     private final Properties props;
-    private final Integer KEY_FIELD; // the statistic of count, purchase count and purchase value is made against me
+    private final Integer DATE_FIELD = 1, PLATFORM_FIELD = 2, REFERER_FIELD = 3,
+            ITEM_FIELD = 4, QUANTITY_FIELD = 5, PRICE_FIELD = 6;
 
+    final StreamsBuilder builder;
 
-    public Aggregate(Integer key, String brokers, String topic, Integer statistic, String rpcEndpoint, Integer
+    public Aggregate(String brokers, String topic, String rpcEndpoint, Integer
             rpcPort) throws Exception {
         //statistic
         // restricted to 0-2
         // count, purchase count and purchase value respectively
         // endpoint exposes the app info to the world
         this.topic = topic;
-        this.KEY_FIELD = key;
         this.props  = new Properties();
-        this.storeName = "";
+        this.builder = new StreamsBuilder();
+
+
+
         final String APP_ID = "stream-aggregate-data" + new Date().hashCode();
         props.put(StreamsConfig.APPLICATION_ID_CONFIG, APP_ID);
         props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, brokers);
@@ -51,26 +50,36 @@ public class Aggregate{
         props.put(StreamsConfig.STATE_DIR_CONFIG, storeFile.getPath());
 
         final KafkaStreams streams;
-
-        switch (statistic){
-            case 2:
-                streams = runPurchaseValueStat();
-                break;
-            case 1:
-                streams = runPurchaseCountStat();
-                break;
-            default:
-                streams = runCountStat();
-        }
+        KStream<String, String> source = this.builder.stream(this.topic);
         //expose the available REST endpoints
         String info = "\n" +
-                "*available endpoints :\n" +
-                "*\t     http://"+rpcEndpoint+":"+rpcPort+"/stats/"+storeName+"/all\n" +
+                "*available endpoints :\n";
+
                 //TODO create platform to query the state of the given list
                 //"*\t     http://"+rpcEndpoint+":"+rpcPort+"/"+storeName+"/{listofkeys}\n" +
-                "*\t     http://"+rpcEndpoint+":"+rpcPort+"/instances\n" +
-                "*\t     http://"+rpcEndpoint+":"+rpcPort+"/instances/"+storeName+"\n" +
-                "*\t     http://"+rpcEndpoint+":"+rpcPort+"/instance/"+storeName+"/{key}";
+
+        HashMap<Integer, String> stats = new HashMap<>();
+        stats.put(DATE_FIELD,"date-");
+        stats.put(PLATFORM_FIELD,"platform-");
+        stats.put(REFERER_FIELD,"referer-");
+        stats.put(ITEM_FIELD,"item-");
+        stats.put(QUANTITY_FIELD,"quantity-");
+        stats.put(PRICE_FIELD,"price-");
+
+        //for()
+        Iterator<Map.Entry<Integer,String>> stat = stats.entrySet().iterator();
+        while(stat.hasNext()){
+            Map.Entry<Integer,String> pair = stat.next();
+            for (String storeName : runStats(source,pair.getKey(),pair.getValue())){
+                info += "*\t     http://"+rpcEndpoint+":"+rpcPort+"/stats/"+storeName+"/all\n";
+            }
+        }
+
+        info +=  "*\t     http://"+rpcEndpoint+":"+rpcPort+"/instances\n";
+        final Topology topology = builder.build();
+        streams = new KafkaStreams(topology, this.props);
+
+
         System.out.print(info);
 
         streams.start();
@@ -93,64 +102,29 @@ public class Aggregate{
                 latch.countDown();
             }
         });
-
         System.exit(0);
 
     }
-    private KafkaStreams runPurchaseValueStat(){
-        final StreamsBuilder builder = new StreamsBuilder();
-        KStream<String, String> sourceHits = builder.stream(this.topic);
-        KGroupedStream<String, String> refererHitsCount = sourceHits
-                .mapValues(value -> new WebRecord(value).getPurchasesCount(this.KEY_FIELD))
-                .map((key,keyValue)->keyValue)
-                .groupBy((key, value) -> key,
-                        Serialized.with(
-                                Serdes.String(),
-                                Serdes.String()));
-        this.storeName = "value";
-        final Materialized store = Materialized.as(this.storeName);
-        refererHitsCount.aggregate(
-                    ()-> "0",
-                    (key, aggOne,aggTwo) -> {
-                        Long val = Long.parseLong(aggOne) + Long.parseLong(aggTwo);
-                        return  val.toString();
-                    },store);
-        final Topology topology = builder.build();
-        return new KafkaStreams(topology, this.props);
-    }
-    private KafkaStreams runPurchaseCountStat(){
-        final StreamsBuilder builder = new StreamsBuilder();
-        KStream<String, String> sourceHits = builder.stream(topic);
-        KGroupedStream<String, String> refererCountOfPurchases = sourceHits
-                .mapValues(value -> new WebRecord(value).getPurchasesCount(this.KEY_FIELD))
-                .map((key,keyValue)->keyValue)
-                .groupBy((key, value) -> key,
-                        Serialized.with(
-                                Serdes.String(),
-                                Serdes.String()));
-        this.storeName = "sales";
-        final Materialized store = Materialized.as(storeName);
-        refererCountOfPurchases.aggregate(
-                    ()-> "0",
-                    (key, aggOne,aggTwo) -> {
-                        Long val = Long.parseLong(aggOne) + Long.parseLong(aggTwo);
-                        return  val.toString();
-                    },store);
-        final Topology topology = builder.build();
-        return new KafkaStreams(topology, this.props);
-    }
-    private KafkaStreams runCountStat(){
-        final StreamsBuilder builder = new StreamsBuilder();
-        KStream<String, String> sourceHits = builder.stream(topic);
-        KGroupedStream<String, String> refererValueOfPurchases = sourceHits
-                .mapValues(value -> new WebRecord(value).getCountPair(this.KEY_FIELD))
+    private String[] runStats(KStream<String, String> source, final int KEY_FIELD, final String storePrefix){
+        String hits = storePrefix+"hits";
+        String sales = storePrefix+"sales";
+        String revenue = storePrefix+"values";
+
+        String[] listOfStores = new String[] {hits,sales,revenue};
+
+        final Materialized hitsStore = Materialized.as(hits);
+        final Materialized salesStore = Materialized.as(sales);
+        final Materialized valueStore = Materialized.as(revenue);
+
+        KGroupedStream<String, String> refererValueOfPurchases = source
+                .mapValues(value -> new WebRecord(value).getCountPair(KEY_FIELD))
                 .map((key,keyValue)->keyValue)
                 .groupBy((key, value) -> key,
                 Serialized.with(
                         Serdes.String(),
                         Serdes.String()));
-        this.storeName = "hits";
-        final Materialized store = Materialized.as("hits");
+
+
         refererValueOfPurchases
                 .aggregate(
                     ()-> "0",
@@ -158,9 +132,46 @@ public class Aggregate{
                         Long val = Long.parseLong(aggOne) + Long.parseLong(aggTwo);
                         return  val.toString();
 
-                    },store);
-        final Topology topology = builder.build();
-        return new KafkaStreams(topology, this.props);
+                    },hitsStore);
+
+        /****/
+        KGroupedStream<String, String> refererCountOfPurchases = source
+                .mapValues(value -> new WebRecord(value).getPurchasesCount(KEY_FIELD))
+                .map((key,keyValue)->keyValue)
+                .groupBy((key, value) -> key,
+                        Serialized.with(
+                                Serdes.String(),
+                                Serdes.String()));
+
+
+        refererCountOfPurchases.aggregate(
+                ()-> "0",
+                (key, aggOne,aggTwo) -> {
+                    Long val = Long.parseLong(aggOne) + Long.parseLong(aggTwo);
+                    return  val.toString();
+                },salesStore);
+
+        /***/
+
+        /***/
+        KGroupedStream<String, String> refererHitsCount = source
+                .mapValues(value -> new WebRecord(value).getPurchasesValue(KEY_FIELD))
+                .map((key,keyValue)->keyValue)
+                .groupBy((key, value) -> key,
+                        Serialized.with(
+                                Serdes.String(),
+                                Serdes.String()));
+
+
+        refererHitsCount.aggregate(
+                ()-> "0",
+                (key, aggOne,aggTwo) -> {
+                    Long val = Long.parseLong(aggOne) + Long.parseLong(aggTwo);
+                    return  val.toString();
+                },valueStore);
+        /***/
+
+        return listOfStores;
     }
     static RPCService startRestProxy(final KafkaStreams streams, final int port)
             throws Exception {
