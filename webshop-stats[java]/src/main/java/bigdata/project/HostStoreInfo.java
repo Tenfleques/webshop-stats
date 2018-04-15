@@ -26,6 +26,8 @@ public class HostStoreInfo {
         String storenames = "[";
         int i = 0;
         for(String s : storeNames) {
+            if(AdministrativeStores.LIVE_DATES.getValue().equals(s))//skip administrative stores
+                continue;
             if (i++ != 0)
                 storenames += ",";
             storenames += "\"" + s + "\"";

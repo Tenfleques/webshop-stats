@@ -10,24 +10,28 @@ import java.util.List;
 public class WebRecord {
     private final List<String> record;
     private final String recordStr;
-    private final Integer PURCHASES_INDEX = 5, PRICE_INDEX = 6, DATE_INDEX = 1;
     WebRecord(String record){
         this.recordStr = record;
         this.record = Arrays.asList(record.split(","));
     }
+    private String cureIfDateField(int key){
+        if(key == RecordFields.DATE_FIELD.getValue())
+            return new java.sql.Date(Long.parseLong(this.record.get(key))).toString();
+        return this.record.get(key);
+    }
     public KeyValue<Long, String> getDatedRecord(){
-        return new KeyValue<>(Long.parseLong(this.record.get(DATE_INDEX)),this.recordStr);
+        return new KeyValue<>(Long.parseLong(this.record.get(RecordFields.DATE_FIELD.getValue())),this.recordStr);
     }
-    public KeyValue<String, String> getCountPair(Integer keyIndex){
+    public KeyValue<String, String> getCountPair(int keyIndex){
         Long val = 1L;
-        return new KeyValue<>(this.record.get(keyIndex),val.toString());
+        return new KeyValue<>(cureIfDateField(keyIndex),val.toString());
     }
-    public KeyValue<String, String> getPurchasesCount(Integer keyIndex){
-        return new KeyValue<>(this.record.get(keyIndex), this.record.get(PURCHASES_INDEX));
+    public KeyValue<String, String> getPurchasesCount(int keyIndex){
+        return new KeyValue<>(cureIfDateField(keyIndex), this.record.get(RecordFields.PURCHASES_FIELD.getValue()));
     }
-    public KeyValue<String, String> getPurchasesValue(Integer keyIndex){
-        Long val = (Long.parseLong(this.record.get(PRICE_INDEX))
-                * Long.parseLong(this.record.get(PURCHASES_INDEX)));
-        return new KeyValue<>(this.record.get(keyIndex),val.toString());
+    public KeyValue<String, String> getPurchasesValue(int keyIndex){
+        Long val = (Long.parseLong(this.record.get(RecordFields.PRICE_FIELD.getValue()))
+                * Long.parseLong(this.record.get(RecordFields.PURCHASES_FIELD.getValue())));
+        return new KeyValue<>(cureIfDateField(keyIndex),val.toString());
     }
 }
