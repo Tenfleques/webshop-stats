@@ -1,10 +1,7 @@
 package bigdata.project;
 
 import org.apache.kafka.common.serialization.Serdes;
-import org.apache.kafka.streams.KafkaStreams;
-import org.apache.kafka.streams.StreamsBuilder;
-import org.apache.kafka.streams.StreamsConfig;
-import org.apache.kafka.streams.Topology;
+import org.apache.kafka.streams.*;
 import org.apache.kafka.streams.kstream.KGroupedStream;
 import org.apache.kafka.streams.kstream.KStream;
 import org.apache.kafka.streams.kstream.Materialized;
@@ -13,6 +10,7 @@ import org.apache.kafka.streams.processor.WallclockTimestampExtractor;
 
 import java.io.File;
 import java.nio.file.Files;
+import java.security.Key;
 import java.util.*;
 import java.util.concurrent.CountDownLatch;
 
@@ -55,10 +53,7 @@ public class AggregateKafka {
 
         KStream<String, String> source = this.builder.stream(this.topic);
         //sink records to redis by date key
-        source.mapValues(value -> new WebRecord(value).getDatedRecord())
-                .map((key,keyValue)->keyValue) // date -> record
-                .foreach((date,record) -> redisSink.sinkDatedRecord(date,record));
-
+        sinkDates(source);
         //expose the available REST endpoints
         String info = "\n" +
                 "*available endpoints :\n";
@@ -71,16 +66,21 @@ public class AggregateKafka {
         stats.put(RecordFields.PRICE_FIELD.getValue(),"price-");
 
         Iterator<Map.Entry<Integer,String>> stat = stats.entrySet().iterator();
+        List<String> historicalStores = new ArrayList<>();
         while(stat.hasNext()){
             Map.Entry<Integer,String> pair = stat.next();
             for (String storeName : runLiveStats(source,pair.getKey(),pair.getValue())){
-                info += "*\t     http://"+rpcEndpoint+":"+rpcPort+"/stats/"+storeName+"/all\n";
-                info += "*\t     http://"+rpcEndpoint+":"+rpcPort+"/archive/"+storeName+"/date_in_ms \n";
-                info += "*\t     http://"+rpcEndpoint+":"+rpcPort+"/archive/"+storeName+"/start_date_in_ms" +
-                        "/end_date_in_ms\n";
+                info += "*\t     http://"+rpcEndpoint+":"+rpcPort+"/live/"+storeName+"/all\n";
+                info += "*\t     http://"+rpcEndpoint+":"+rpcPort+"/archive/"+storeName+"/yyyy-mm-dd \n";
+                info += "*\t     http://"+rpcEndpoint+":"+rpcPort+"/archive/"+storeName+"/yyyy-mm-dd" +
+                        "/yyyy-mm-dd\n";
+                historicalStores.add(storeName);
             }
         }
+        info += "*\t     http://"+rpcEndpoint+":"+rpcPort+"/archive/stores\n";
         info += "*\t     http://"+rpcEndpoint+":"+rpcPort+"/instances\n";
+        info += "*\t     http://"+rpcEndpoint+":"+rpcPort+"/live/dates\n";
+
         final Topology topology = builder.build();
         streams = new KafkaStreams(topology, this.props);
 
@@ -89,6 +89,7 @@ public class AggregateKafka {
 
         streams.start();
         final RPCService restService =  startRestProxy(streams,redisSink,rpcPort);
+        restService.setArchiveStores(historicalStores);
         final CountDownLatch latch = new CountDownLatch(1);
         try{
             latch.await();
@@ -176,6 +177,29 @@ public class AggregateKafka {
                 },valueStore);
         /***/
         return listOfStores;
+    }
+    private void sinkDates(KStream<String, String> source){
+        final Materialized liveDatesStore = Materialized.as(AdministrativeStores.LIVE_DATES.getValue());
+
+        KGroupedStream<String, String> dateRecords = source
+                .mapValues(value -> new WebRecord(value).getDatedRecord())
+                .map((key,keyValue)->keyValue)
+                .map((date,record)-> {
+                    redisSink.sinkDatedRecord(date,record);
+                    return KeyValue.pair(new java.sql.Date(date).toString(),"1");
+                })
+                .groupBy((date, one) -> date,
+                        Serialized.with(
+                                Serdes.String(),
+                                Serdes.String()));
+        dateRecords
+                .aggregate(
+                        ()-> "0",
+                        (key, aggOne,aggTwo) -> {
+                            Long val = Long.parseLong(aggOne) + Long.parseLong(aggTwo);
+                            return  val.toString();
+                        },liveDatesStore);
+
     }
     static RPCService startRestProxy(final KafkaStreams streams, final RedisSink redisSink, final int port)
             throws Exception {

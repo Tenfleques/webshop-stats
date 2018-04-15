@@ -5,14 +5,15 @@ import com.lambdaworks.redis.RedisConnection;
 import com.lambdaworks.redis.RedisURI;
 import org.apache.kafka.streams.KeyValue;
 
-import java.time.Duration;
+import java.text.SimpleDateFormat;
 import java.time.Instant;
+import java.time.temporal.ChronoField;
 import java.time.temporal.ChronoUnit;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.time.temporal.Temporal;
+import java.util.*;
 import java.util.stream.Collectors;
+
+import static java.lang.Math.abs;
 
 
 public class RedisSink {
@@ -73,12 +74,20 @@ public class RedisSink {
         return new StreamJSON(aggregatedForDate).getJson();
     }
     public String getForDatesRange(String storeName, Long startMilliseconds, Long endMilliseconds){
-        String unionKeys = "";
-        while(startMilliseconds <= endMilliseconds){
-            unionKeys += makeDateKey(startMilliseconds) + " ";
+        List<String> unionKeysList = new ArrayList<>();
+        Long days = ChronoUnit.DAYS.between(Instant.ofEpochMilli(startMilliseconds), Instant.ofEpochMilli
+                (endMilliseconds + 1000*3600*24));
+        Long day = 0L;
+
+        while(day <= days){
+            unionKeysList.add(makeDateKey(startMilliseconds));
             startMilliseconds += 1000*3600*24;
+            day ++;
         }
-        System.out.println(unionKeys);
+        String[] unionKeys = unionKeysList.toArray( new String[] {} );
+        return new StreamJSON(getUnionMap(unionKeys,storeName)).getJson();
+    }
+    private Iterator<Map.Entry<String,Long>> getUnionMap(String[] unionKeys, String storeName){
         RedisConnection<String, String> connection = redisClient.connect();
         Iterator<Map.Entry<String,Long>> aggregatedForDate =
                 connection.sunion(unionKeys)
@@ -94,19 +103,8 @@ public class RedisSink {
                         )
                         .entrySet()
                         .iterator();
-        connection.sunion(unionKeys)
-                .stream()
-                .map(record-> getAggregatePair(record,storeName))
-                .collect(
-                        Collectors.groupingBy(kv->kv.key,
-                                Collectors.mapping(
-                                        rec -> Long.parseLong(rec.value),
-                                        Collectors.summingLong(r -> r.longValue())
-                                )
-                        )
-                ).forEach((k,v) -> System.out.println(k + v));
         connection.close();
-        return new StreamJSON(aggregatedForDate).getJson();
+        return aggregatedForDate;
     }
     public void close(){
         redisClient.shutdown();

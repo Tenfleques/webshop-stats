@@ -1,8 +1,12 @@
 /home/blackjack/dev/apache/kafka_2.11-1.0.1/apps/webshop-stats/webshop-stats[java]/src/main/java/bigdata/project/WebRecord.java
-/home/blackjack/dev/apache/kafka_2.11-1.0.1/apps/webshop-stats/webshop-stats[java]/src/main/java/bigdata/project/Aggregate.java
+/home/blackjack/dev/apache/kafka_2.11-1.0.1/apps/webshop-stats/webshop-stats[java]/src/main/java/bigdata/project/RecordFields.java
 /home/blackjack/dev/apache/kafka_2.11-1.0.1/apps/webshop-stats/webshop-stats[java]/src/main/java/bigdata/project/KeyNotFoundException.java
+/home/blackjack/dev/apache/kafka_2.11-1.0.1/apps/webshop-stats/webshop-stats[java]/src/main/java/bigdata/project/RedisSink.java
+/home/blackjack/dev/apache/kafka_2.11-1.0.1/apps/webshop-stats/webshop-stats[java]/src/main/java/bigdata/project/AdministrativeStores.java
 /home/blackjack/dev/apache/kafka_2.11-1.0.1/apps/webshop-stats/webshop-stats[java]/src/main/java/bigdata/project/Application.java
+/home/blackjack/dev/apache/kafka_2.11-1.0.1/apps/webshop-stats/webshop-stats[java]/src/main/java/bigdata/project/StreamJSON.java
 /home/blackjack/dev/apache/kafka_2.11-1.0.1/apps/webshop-stats/webshop-stats[java]/src/main/java/bigdata/project/HostStoreInfo.java
+/home/blackjack/dev/apache/kafka_2.11-1.0.1/apps/webshop-stats/webshop-stats[java]/src/main/java/bigdata/project/AggregateKafka.java
 /home/blackjack/dev/apache/kafka_2.11-1.0.1/apps/webshop-stats/webshop-stats[java]/src/main/java/bigdata/project/MetadataService.java
 /home/blackjack/dev/apache/kafka_2.11-1.0.1/apps/webshop-stats/webshop-stats[java]/src/main/java/bigdata/project/RPCService.java
 /home/blackjack/dev/apache/kafka_2.11-1.0.1/apps/webshop-stats/webshop-stats[java]/src/main/java/bigdata/project/Pipe.java
