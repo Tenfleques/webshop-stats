@@ -4,6 +4,7 @@ import org.apache.kafka.streams.KeyValue;
 import org.apache.kafka.streams.state.KeyValueIterator;
 
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 
 public class StreamJSON {
@@ -32,6 +33,17 @@ public class StreamJSON {
             json += "{";
             json += "\"key\":\""+record.getKey() + "\",\"value\":" + "\""+ record.getValue()+"\"";
             json += "}";
+            i++;
+        }
+        json += "]";
+    }
+    StreamJSON(List<String> ls){
+        json = "[";
+        Integer i = 0;
+        for (String record : ls){
+            if(i!=0)
+                json += ",";
+            json += "\""+ record+"\"";
             i++;
         }
         json += "]";

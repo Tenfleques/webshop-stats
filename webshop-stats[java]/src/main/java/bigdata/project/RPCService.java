@@ -1,8 +1,5 @@
 package bigdata.project;
-import org.apache.kafka.common.serialization.StringSerializer;
 import org.apache.kafka.streams.KafkaStreams;
-import org.apache.kafka.streams.KeyValue;
-import org.apache.kafka.streams.state.KeyValueIterator;
 import org.apache.kafka.streams.state.QueryableStoreTypes;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
@@ -16,6 +13,8 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+import java.text.SimpleDateFormat;
+import java.util.List;
 
 /**
  *  Rest endpoint to broadcast the computed statistics in the application
@@ -30,23 +29,41 @@ public class RPCService {
     private final MetadataService metadataService;
     private Server jettyServer;
     private final RedisSink redisSink;
+    private List<String> archiveStores;
+
     RPCService(final KafkaStreams streams, final RedisSink redisSink) {
         this.streams = streams;
         this.metadataService = new MetadataService(streams);
         this.redisSink = redisSink;
     }
-    /**
-     * Get all of the key-value pairs for date
-     * @param  storeName
-     * @param date  to query
-     * @return A List representing all of the key-values for the date given
-     */
+    public void setArchiveStores(List<String> archiveStores){
+        this.archiveStores = archiveStores;
+    }
+    @GET()
+    @Path("/archive/stores")
+    @Produces(MediaType.APPLICATION_JSON)
+    public String getArchiveStores() {
+        return new StreamJSON(this.archiveStores).getJson();
+    }
+        /**
+         * Get all of the key-value pairs for date
+         * @param  storeName
+         * @param date  to query
+         * @return A List representing all of the key-values for the date given
+         */
     @GET()
     @Path("/archive/{storeName}/{date}")
-    @Produces(MediaType.TEXT_PLAIN)
+    @Produces(MediaType.APPLICATION_JSON)
     public String getForDate(@PathParam("storeName") final String storeName,
                                         @PathParam("date") final String date) {
-        return redisSink.getForDate(storeName,Long.parseLong(date));
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+
+        try {
+            Long milliseconds = format.parse(date).toInstant().toEpochMilli();
+            return redisSink.getForDate(storeName,milliseconds);
+        }catch (Exception e){
+            return "[]";
+        }
     }
     /**
      * Get all of the key-value pairs for date
@@ -60,7 +77,15 @@ public class RPCService {
     public String allForDateRange(@PathParam("storeName") final String storeName,
                                   @PathParam("dateStart") final String dateStart,
                                   @PathParam("dateEnd") final String dateEnd) {
-        return redisSink.getForDatesRange(storeName,Long.parseLong(dateStart),Long.parseLong(dateEnd));
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+        try {
+            Long startMilliseconds = format.parse(dateStart).toInstant().toEpochMilli();
+            Long endMilliseconds = format.parse(dateEnd).toInstant().toEpochMilli();
+            return redisSink.getForDatesRange(storeName, startMilliseconds, endMilliseconds);
+        }catch (Exception e){
+            e.printStackTrace();
+            return "[]";
+        }
     }
     /**
      * Get all of the key-value pairs available in a store
@@ -69,7 +94,7 @@ public class RPCService {
      * store
      */
     @GET()
-    @Path("/stats/{storeName}/all")
+    @Path("/live/{storeName}/all")
     @Produces(MediaType.APPLICATION_JSON)
     public String allForStore(@PathParam("storeName") final String storeName) {
         return new StreamJSON(streams.store(storeName, QueryableStoreTypes.<String, String>keyValueStore()).all()).getJson();
@@ -80,6 +105,18 @@ public class RPCService {
     public String streamsMetadata() {
         return metadataService.streamsMetadata().toString();
     }
+    @GET()
+    @Path("/live/dates")
+    @Produces(MediaType.APPLICATION_JSON)
+    public String liveDates() {
+        return new StreamJSON(
+                streams
+                    .store(AdministrativeStores.LIVE_DATES.getValue(),
+                      QueryableStoreTypes.<String,String>keyValueStore())
+                    .all())
+                .getJson();
+    }
+
 
 
 
