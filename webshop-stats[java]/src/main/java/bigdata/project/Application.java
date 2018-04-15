@@ -34,9 +34,9 @@ public class Application {
             return;
         }
 
-        final Integer ENDPOINT_PORT;
+        final Integer ENDPOINT_PORT, REDIS_PORT;
         String BROKERS = "";
-        final String TOPIC, ENDPOINT;
+        final String TOPIC, ENDPOINT, REDIS_URL;
 
         try {
             File configFile = new File(args[0]);
@@ -48,22 +48,24 @@ public class Application {
             if(!config.containsKey("brokers")
                     || !config.containsKey("topic")
                     || !config.containsKey("restUrl")
-                    || !config.containsKey("restPort")){
+                    || !config.containsKey("restPort")
+                    || !config.containsKey("redisUrl")
+                    || !config.containsKey("redisPort")){
                 throw new KeyNotFoundException("error in config.json, missing keys.");
             }
             TOPIC = config.get("topic").toString();
             ENDPOINT = config.get("restUrl").toString();
             ENDPOINT_PORT = Integer.parseInt(config.get("restPort").toString());
 
+            REDIS_URL = config.get("redisUrl").toString();
+            REDIS_PORT = Integer.parseInt(config.get("redisPort").toString());
+
             for (Object broker: (JSONArray)config.get("brokers") ) {
                 BROKERS += (BROKERS.length() == 0) ? "" : ",";
                 BROKERS += broker;
             }
-            // application can only run one stats at a given time
-            // statistics available for referee agent
             try {
-                //new RedisSink("localhost",6379);
-                new Aggregate(BROKERS,TOPIC,ENDPOINT,ENDPOINT_PORT);
+                new AggregateKafka(BROKERS,TOPIC,ENDPOINT,ENDPOINT_PORT,REDIS_URL,REDIS_PORT);
             }catch (Exception e ){
                 System.out.print(e.getMessage());
                 e.printStackTrace();
