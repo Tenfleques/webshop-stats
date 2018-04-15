@@ -6,5 +6,9 @@
   "brokers" : ["localhost:9092"],
   "topic" : "clients-purchases-src",
   "restUrl" : "localhost",
+<<<<<<< HEAD
   "restPort" : "1010"
+=======
+  "restPort" : "7070"
+>>>>>>> e2bdfc8e79a6401df139004d4aab91e210278f62
 }
