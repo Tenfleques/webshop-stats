@@ -59,7 +59,7 @@ public class MetadataService {
     }
 
     private String jsonMetadata(final Collection<StreamsMetadata> metadatas) {
-        String json = "[";
+        String json = "";
         Integer i = 0;
         Iterator<StreamsMetadata> hostInfos = metadatas.stream().collect(Collectors.toList()).iterator();
         while(hostInfos.hasNext()){
@@ -70,7 +70,7 @@ public class MetadataService {
                                 metadata.port(),
                                 metadata.stateStoreNames()).toString();
         }
-        json += "]";
+        //json += "]";
         return  json;
     }
 }
