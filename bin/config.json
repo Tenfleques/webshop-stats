@@ -1,0 +1,8 @@
+{
+  "brokers" : ["localhost:9092"],
+  "topic" : "clients-purchases-in",
+  "restUrl" : "localhost",
+  "restPort" : "7070",
+  "redisUrl" : "localhost",
+  "redisPort" : "6379"
+}
