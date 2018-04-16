@@ -10,7 +10,6 @@ import org.apache.kafka.streams.processor.WallclockTimestampExtractor;
 
 import java.io.File;
 import java.nio.file.Files;
-import java.security.Key;
 import java.util.*;
 import java.util.concurrent.CountDownLatch;
 
@@ -61,6 +60,8 @@ public class AggregateKafka {
         HashMap<Integer, String> stats = new HashMap<>();
         stats.put(RecordFields.DATE_FIELD.getValue(),"date-");
         stats.put(RecordFields.PLATFORM_FIELD.getValue(),"platform-");
+        stats.put(RecordFields.BROWSER_FIELD.getValue(),"browser-");
+        stats.put(RecordFields.OS_FIELD.getValue(),"os-");
         stats.put(RecordFields.REFERER_FIELD.getValue(),"referer-");
         stats.put(RecordFields.ITEM_FIELD.getValue(),"item-");
         stats.put(RecordFields.PRICE_FIELD.getValue(),"price-");
@@ -112,71 +113,47 @@ public class AggregateKafka {
         System.exit(0);
 
     }
-    private String[] runLiveStats(KStream<String, String> source, final int KEY_FIELD, final String storePrefix){
-        String hits = storePrefix+"hits";
-        String sales = storePrefix+"sales";
-        String revenue = storePrefix+"revenue";
+    private String makeStats(KStream<String, String> source, final int KEY_FIELD,final String storePrefix, final
+                           int WHICH_STAT){
 
-        String[] listOfStores = new String[] {hits,sales,revenue};
+        String[] storage = new String[]{storePrefix+"revenue",storePrefix+"sales",storePrefix+"hits"};
 
-        final Materialized hitsStore = Materialized.as(hits);
-        final Materialized salesStore = Materialized.as(sales);
-        final Materialized valueStore = Materialized.as(revenue);
+        final Materialized store = Materialized.as(storage[WHICH_STAT]);
 
         KGroupedStream<String, String> refererValueOfPurchases = source
-                .mapValues(value -> new WebRecord(value).getCountPair(KEY_FIELD))
+                .mapValues(value -> {
+                    WebRecord webRecord = new WebRecord(value);
+                    switch (WHICH_STAT){
+                        case 2:
+                            return webRecord.getCountPair(KEY_FIELD);
+                        case 1:
+                            return webRecord.getPurchasesCount(KEY_FIELD);
+                        default:
+                            return webRecord.getPurchasesValue(KEY_FIELD);
+                    }
+
+                })
                 .map((key,keyValue)->keyValue)
                 .groupBy((key, value) -> key,
-                Serialized.with(
-                        Serdes.String(),
-                        Serdes.String()));
-
+                        Serialized.with(
+                                Serdes.String(),
+                                Serdes.String()));
 
         refererValueOfPurchases
                 .aggregate(
-                    ()-> "0",
-                    (key, aggOne,aggTwo) -> {
-                        Long val = Long.parseLong(aggOne) + Long.parseLong(aggTwo);
-                        return  val.toString();
-                    },hitsStore);
+                        ()-> "0",
+                        (key, aggOne,aggTwo) -> {
+                            Long val = Long.parseLong(aggOne) + Long.parseLong(aggTwo);
+                            return  val.toString();
+                        },store);
+        return storage[WHICH_STAT];
+    }
+    private String[] runLiveStats(KStream<String, String> source, final int KEY_FIELD, final String storePrefix){
+        String hits = makeStats(source,KEY_FIELD,storePrefix,2);
+        String sales = makeStats(source,KEY_FIELD,storePrefix,1);;
+        String revenue = makeStats(source,KEY_FIELD,storePrefix,0);;
 
-        /****/
-        KGroupedStream<String, String> refererCountOfPurchases = source
-                .mapValues(value -> new WebRecord(value).getPurchasesCount(KEY_FIELD))
-                .map((key,keyValue)->keyValue)
-                .groupBy((key, value) -> key,
-                        Serialized.with(
-                                Serdes.String(),
-                                Serdes.String()));
-
-
-        refererCountOfPurchases.aggregate(
-                ()-> "0",
-                (key, aggOne,aggTwo) -> {
-                    Long val = Long.parseLong(aggOne) + Long.parseLong(aggTwo);
-                    return  val.toString();
-                },salesStore);
-
-        /***/
-
-        /***/
-        KGroupedStream<String, String> refererHitsCount = source
-                .mapValues(value -> new WebRecord(value).getPurchasesValue(KEY_FIELD))
-                .map((key,keyValue)->keyValue)
-                .groupBy((key, value) -> key,
-                        Serialized.with(
-                                Serdes.String(),
-                                Serdes.String()));
-
-
-        refererHitsCount.aggregate(
-                ()-> "0",
-                (key, aggOne,aggTwo) -> {
-                    Long val = Long.parseLong(aggOne) + Long.parseLong(aggTwo);
-                    return  val.toString();
-                },valueStore);
-        /***/
-        return listOfStores;
+        return new String[] {hits,sales,revenue};
     }
     private void sinkDates(KStream<String, String> source){
         final Materialized liveDatesStore = Materialized.as(AdministrativeStores.LIVE_DATES.getValue());

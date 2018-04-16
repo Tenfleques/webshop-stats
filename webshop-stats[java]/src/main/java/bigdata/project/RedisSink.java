@@ -5,15 +5,10 @@ import com.lambdaworks.redis.RedisConnection;
 import com.lambdaworks.redis.RedisURI;
 import org.apache.kafka.streams.KeyValue;
 
-import java.text.SimpleDateFormat;
 import java.time.Instant;
-import java.time.temporal.ChronoField;
 import java.time.temporal.ChronoUnit;
-import java.time.temporal.Temporal;
 import java.util.*;
 import java.util.stream.Collectors;
-
-import static java.lang.Math.abs;
 
 
 public class RedisSink {

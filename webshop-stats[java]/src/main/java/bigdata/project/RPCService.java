@@ -116,10 +116,6 @@ public class RPCService {
                     .all())
                 .getJson();
     }
-
-
-
-
     /**
      * Start an embedded Jetty Server on the given port
      * @param port    port to run the Server on
