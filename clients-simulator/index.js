@@ -10,7 +10,7 @@ let config = JSON.parse(fs.readFileSync("config.json"));
 let refereesJson = JSON.parse(fs.readFileSync("resources/referrers.json"));
 let platformsJson = JSON.parse(fs.readFileSync("resources/web-clients.list.json"));
 let platforms = platformsJson["userAgents"].map(element =>{
-    return element.deviceName + "-" +element.value;
+    return element.value;
  })
 
  let client = new kafka.Client(config.output.kafka.host+":"+config.output.kafka.port+"/")
