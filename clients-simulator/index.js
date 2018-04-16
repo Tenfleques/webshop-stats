@@ -10,7 +10,7 @@ let config = JSON.parse(fs.readFileSync("config.json"));
 let refereesJson = JSON.parse(fs.readFileSync("resources/referrers.json"));
 let platformsJson = JSON.parse(fs.readFileSync("resources/web-clients.list.json"));
 let platforms = platformsJson["userAgents"].map(element =>{
-    return element.deviceName + "-" +element.value;
+    return element.value;
  })
 
  let client = new kafka.Client(config.output.kafka.host+":"+config.output.kafka.port+"/")
@@ -89,7 +89,7 @@ function addToJsonRandomRecord(stockElement){
     let platformsIndex = Math.floor(Math.random()*10) % platforms.length; 
     let quantityIndex = Math.floor(Math.random()*10) % 2;
 
-    let timestamp = getRandomTime(true);
+    let timestamp = getRandomTime();
     _id += 1;
     
     /*Csv.push(
@@ -131,7 +131,8 @@ function getRandomTime(){
     let date = new Date(year,month,day,hour,min,sec);
     if(arguments[0])
         return Math.floor(date.getTime()/1000); //return unix timestamp in seconds
-    return date.getTime(); //return unix timestamp in milliseconds
+   // return date.getTime(); //return unix timestamp in milliseconds
+	return today.getTime();
 }
 
 function cycleIndex(index, array){
