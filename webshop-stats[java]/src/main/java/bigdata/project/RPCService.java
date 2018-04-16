@@ -1,8 +1,5 @@
 package bigdata.project;
-import org.apache.kafka.common.serialization.StringSerializer;
 import org.apache.kafka.streams.KafkaStreams;
-import org.apache.kafka.streams.KeyValue;
-import org.apache.kafka.streams.state.KeyValueIterator;
 import org.apache.kafka.streams.state.QueryableStoreTypes;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
@@ -16,44 +13,80 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+import java.text.SimpleDateFormat;
+import java.util.List;
 
 /**
  *  Rest endpoint to broadcast the computed statistics in the application
  *  available endpoints :
  *      url:port/stats/{storeName}/all
- *      url:port/stats/{storeName}/{key}
  *      url:port/instances
- *      url:port/instances/{storeName}
- *      url:port/instance/{storeName}/{key}
  *
  */
 @Path("/")
 public class RPCService {
-
     private final KafkaStreams streams;
     private final MetadataService metadataService;
     private Server jettyServer;
+    private final RedisSink redisSink;
+    private List<String> archiveStores;
 
-    RPCService(final KafkaStreams streams) {
+    RPCService(final KafkaStreams streams, final RedisSink redisSink) {
         this.streams = streams;
         this.metadataService = new MetadataService(streams);
+        this.redisSink = redisSink;
     }
-    private String buildJson(KeyValueIterator<String,String> streamData){
-        String json = "[";
-        Integer i = 0;
-        while(streamData.hasNext()){
-            KeyValue<String, String> record = streamData.next();
-            if(i!=0)
-                json += ",";
-            json += "{";
-            json += "\"key\":\""+record.key + "\",\"value\":" + "\""+ record.value+"\"";
-            json += "}";
-            i++;
-        }
-        json += "]";
-        return json;
+    public void setArchiveStores(List<String> archiveStores){
+        this.archiveStores = archiveStores;
     }
+    @GET()
+    @Path("/archive/stores")
+    @Produces(MediaType.APPLICATION_JSON)
+    public String getArchiveStores() {
+        return new StreamJSON(this.archiveStores).getJson();
+    }
+        /**
+         * Get all of the key-value pairs for date
+         * @param  storeName
+         * @param date  to query
+         * @return A List representing all of the key-values for the date given
+         */
+    @GET()
+    @Path("/archive/{storeName}/{date}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public String getForDate(@PathParam("storeName") final String storeName,
+                                        @PathParam("date") final String date) {
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
 
+        try {
+            Long milliseconds = format.parse(date).toInstant().toEpochMilli();
+            return redisSink.getForDate(storeName,milliseconds);
+        }catch (Exception e){
+            return "[]";
+        }
+    }
+    /**
+     * Get all of the key-value pairs for date
+     * @param dateStart
+     * @param dateEnd
+     * @return A List representing all of the key-values for the date given
+     */
+    @GET()
+    @Path("/archive/{storeName}/{dateStart}/{dateEnd}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public String allForDateRange(@PathParam("storeName") final String storeName,
+                                  @PathParam("dateStart") final String dateStart,
+                                  @PathParam("dateEnd") final String dateEnd) {
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+        try {
+            Long startMilliseconds = format.parse(dateStart).toInstant().toEpochMilli();
+            Long endMilliseconds = format.parse(dateEnd).toInstant().toEpochMilli();
+            return redisSink.getForDatesRange(storeName, startMilliseconds, endMilliseconds);
+        }catch (Exception e){
+            e.printStackTrace();
+            return "[]";
+        }
+    }
     /**
      * Get all of the key-value pairs available in a store
      * @param storeName   store to query
@@ -61,63 +94,28 @@ public class RPCService {
      * store
      */
     @GET()
-    @Path("/stats/{storeName}/all")
+    @Path("/live/{storeName}/all")
     @Produces(MediaType.APPLICATION_JSON)
     public String allForStore(@PathParam("storeName") final String storeName) {
-        return buildJson(streams.store(storeName, QueryableStoreTypes.<String, String>keyValueStore()).all());
+        return new StreamJSON(streams.store(storeName, QueryableStoreTypes.<String, String>keyValueStore()).all()).getJson();
     }
-
-
-    /**
-     * Get all of the key-value pairs that have keys within the range from...to
-     * @param //storeName   store to query
-     * @param //[keys]        start of the range (inclusive)
-     * @return A JsonArray representing the key-value pairs for the given list of keys  in the provided
-     */
-    /*@GET()
-    @Path("/stats/{storeName}/range/{listofkeys}")
-    @Produces(MediaType.APPLICATION_JSON)
-    public String keyRangeForStore(@PathParam("storeName") final String storeName,
-                                               @PathParam("from") final String from,
-                                               @PathParam("to") final String to) {
-        return buildJson(streams.store(storeName, QueryableStoreTypes.<String, String>keyValueStore()).range(from, to));
-    }*/
     @GET()
     @Path("/instances")
     @Produces(MediaType.APPLICATION_JSON)
     public String streamsMetadata() {
         return metadataService.streamsMetadata().toString();
     }
-
-
-    /**
-     * Get the metadata for all instances of this Kafka Streams application that currently
-     * has the provided store.
-     * @param store   The store to locate
-     * @return  List of {@link HostStoreInfo}
-     */
     @GET()
-    @Path("/instances/{storeName}")
+    @Path("/live/dates")
     @Produces(MediaType.APPLICATION_JSON)
-    public String streamsMetadataForStore(@PathParam("storeName") String store) {
-        return metadataService.streamsMetadataForStore(store);
+    public String liveDates() {
+        return new StreamJSON(
+                streams
+                    .store(AdministrativeStores.LIVE_DATES.getValue(),
+                      QueryableStoreTypes.<String,String>keyValueStore())
+                    .all())
+                .getJson();
     }
-
-    /**
-     * Find the metadata for the instance of this Kafka Streams Application that has the given
-     * store and would have the given key if it exists.
-     * @param store   Store to find
-     * @param key     The key to find
-     * @return {@link HostStoreInfo}
-     */
-    @GET()
-    @Path("/instance/{storeName}/{key}")
-    @Produces(MediaType.APPLICATION_JSON)
-    public String streamsMetadataForStoreAndKey(@PathParam("storeName") String store,
-                                                       @PathParam("key") String key) {
-        return metadataService.streamsMetadataForStoreAndKey(store, key, new StringSerializer());
-    }
-
     /**
      * Start an embedded Jetty Server on the given port
      * @param port    port to run the Server on

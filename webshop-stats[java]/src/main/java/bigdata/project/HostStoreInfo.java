@@ -21,40 +21,23 @@ public class HostStoreInfo {
         this.port = port;
         this.storeNames = storeNames;
     }
-
-    public String getHost() {
-        return host;
-    }
-
-    public void setHost(final String host) {
-        this.host = host;
-    }
-
-    public int getPort() {
-        return port;
-    }
-
-    public void setPort(final int port) {
-        this.port = port;
-    }
-
-    public Set<String> getStoreNames() {
-        return storeNames;
-    }
-
-    public void setStoreNames(final Set<String> storeNames) {
-        this.storeNames = storeNames;
-    }
-
     @Override
     public String toString() {
-        return "{ " +
-                "\"HostStoreInfo\" :" +
-                    "{"
-                        +"\"host\": \"" + host + "\","
-                        +"\"port\": \"" + port + "\","
-                        +"\"storeNames\": " + storeNames +
-                '}';
+        String storenames = "[";
+        int i = 0;
+        for(String s : storeNames) {
+            if(AdministrativeStores.LIVE_DATES.getValue().equals(s))//skip administrative stores
+                continue;
+            if (i++ != 0)
+                storenames += ",";
+            storenames += "\"" + s + "\"";
+        }
+        storenames += "]";
+        return "{ "
+                    +"\"host\": \"" + host + "\""
+                    +",\"port\": \"" + port + "\""
+                    +",\"storeNames\": " + storenames
+                + "}";
     }
 
     @Override

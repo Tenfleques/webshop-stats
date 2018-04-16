@@ -1,10 +1,14 @@
 bigdata/project/Pipe.class
 bigdata/project/Application.class
 bigdata/project/MetadataService.class
+bigdata/project/AggregateKafka.class
 bigdata/project/RPCService.class
+bigdata/project/AdministrativeStores.class
+bigdata/project/AggregateKafka$1.class
+bigdata/project/RecordFields.class
 bigdata/project/Pipe$1.class
+bigdata/project/RedisSink.class
 bigdata/project/HostStoreInfo.class
 bigdata/project/KeyNotFoundException.class
 bigdata/project/WebRecord.class
-bigdata/project/KeyValueBean.class
-bigdata/project/Aggregate.class
+bigdata/project/StreamJSON.class
