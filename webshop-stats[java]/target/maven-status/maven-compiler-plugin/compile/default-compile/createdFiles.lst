@@ -9,6 +9,7 @@ com/flequesboard/java/apps/PlatformFormat.class
 com/flequesboard/java/apps/KeyNotFoundException.class
 com/flequesboard/java/apps/RPCService.class
 com/flequesboard/java/apps/StreamJSON.class
+com/flequesboard/java/apps/StorePairFields.class
 com/flequesboard/java/apps/AggregateKafka.class
 com/flequesboard/java/apps/Application.class
 com/flequesboard/java/apps/RecordFields.class

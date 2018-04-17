@@ -1,5 +1,6 @@
 /home/blackjack/dev/apache/kafka_2.11-1.0.1/apps/webshop-stats/webshop-stats[java]/src/main/java/com/flequesboard/java/apps/HostStoreInfo.java
 /home/blackjack/dev/apache/kafka_2.11-1.0.1/apps/webshop-stats/webshop-stats[java]/src/main/java/com/flequesboard/java/apps/RecordFields.java
+/home/blackjack/dev/apache/kafka_2.11-1.0.1/apps/webshop-stats/webshop-stats[java]/src/main/java/com/flequesboard/java/apps/StorePairFields.java
 /home/blackjack/dev/apache/kafka_2.11-1.0.1/apps/webshop-stats/webshop-stats[java]/src/main/java/com/flequesboard/java/apps/Pipe.java
 /home/blackjack/dev/apache/kafka_2.11-1.0.1/apps/webshop-stats/webshop-stats[java]/src/main/java/com/flequesboard/java/apps/RedisSink.java
 /home/blackjack/dev/apache/kafka_2.11-1.0.1/apps/webshop-stats/webshop-stats[java]/src/main/java/com/flequesboard/java/apps/AggregateKafka.java

@@ -33,20 +33,15 @@ public class RedisSink {
         //example storeName = date-sales
         //st[1] = hits | sales | revenue
         String[] st = storeName.split("-");
-        HashMap<String,Integer> stats = new HashMap<>();
-        stats.put("date",RecordFields.DATE_FIELD.getValue());
-        stats.put("platform",RecordFields.PLATFORM_FIELD.getValue());
-        stats.put("referer",RecordFields.REFERER_FIELD.getValue());
-        stats.put("item",RecordFields.ITEM_FIELD.getValue());
-        stats.put("price",RecordFields.PRICE_FIELD.getValue());
+        StorePairFields stats = new StorePairFields();
 
         switch(st[1]){
             case "hits":
-                return new WebRecord(record).getCountPair(stats.get(st[0]));
+                return new WebRecord(record).getCountPair(stats.getKey(st[0]));
             case "sales":
-                return new WebRecord(record).getPurchasesCount(stats.get(st[0]));
+                return new WebRecord(record).getPurchasesCount(stats.getKey(st[0]));
             default:
-                return new WebRecord(record).getPurchasesValue(stats.get(st[0]));
+                return new WebRecord(record).getPurchasesValue(stats.getKey(st[0]));
         }
 
     }

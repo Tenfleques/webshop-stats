@@ -9,29 +9,40 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-//19,1499882547,Platform e.g Android 4.0.2,instagram.*,HTC Desire HD,0,5000
+//19,1499882547,Platform e.g ...Android 4.0.2,instagram.*,HTC Desire HD,0,5000
 public class Application {
-    /*
-    * required topic
-    * statistic, brokers
-    * endpoint
-    *
-     */
     public static void main(String[] args) {
 
         String usage = "you must supply the config.json file with this structure"
                 +"\n{"
-                + "\n\t \"brokers\" : [\"required: the clusters address e.g localhost:9092\"],"
+                + "\n\t \"brokers\" : [\"required: the kafka's clusters address e.g localhost:9092\"],"
                 + "\n\t \"topic\" : \"required: the Kafka topic feeding the application\","
                 + "\n\t \"restUrl\" : \"required: the url for the REST endpoint e.g localhost\","
                 + "\n\t \"restPort\" : \"required: the port for the REST endpoint e.g 7070\""
+                + "\n\t \"redisUrl\" : \"required: the url for the Redis server e.g localhost\","
+                + "\n\t \"redisPort\" : \"required: the port for the Redis server e.g 6379\""
                 + "\n}\n";
 
-
+        String filePath;
+        File configFile;
         if(args.length != 1) {
-            System.out.print(usage);
-            System.exit(1);
-            return;
+            try{
+                configFile = new File("config.json");//try to get config file in the same dir as the jar
+                filePath = configFile.getAbsolutePath();
+            }catch (Exception e) {
+                System.out.print(usage);
+                System.exit(1);
+                return;
+            }
+        }else{
+            try {
+                configFile = new File(args[0]);
+                filePath = configFile.getAbsolutePath();
+            }catch (Exception e){
+                System.out.print(usage);
+                System.exit(1);
+                return;
+            }
         }
 
         final Integer ENDPOINT_PORT, REDIS_PORT;
@@ -39,8 +50,6 @@ public class Application {
         final String TOPIC, ENDPOINT, REDIS_URL;
 
         try {
-            File configFile = new File(args[0]);
-            String filePath = configFile.getAbsolutePath();
             FileReader file = new FileReader(filePath);
 
             JSONParser parser = new JSONParser();
@@ -68,7 +77,6 @@ public class Application {
                 new AggregateKafka(BROKERS,TOPIC,ENDPOINT,ENDPOINT_PORT,REDIS_URL,REDIS_PORT);
             }catch (Exception e ){
                 System.out.print(e.getMessage());
-                e.printStackTrace();
             }
 
         }catch (FileNotFoundException e){

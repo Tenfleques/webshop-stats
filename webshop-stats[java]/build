@@ -1,0 +1,2 @@
+mvn clean package &&
+mv target/bigdata.project-0.1.5-jar-with-dependencies.jar ../bin/server

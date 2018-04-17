@@ -55,16 +55,7 @@ class AggregateKafka {
         StringBuilder info = new StringBuilder("\n" +
                 "*available endpoints :\n");
 
-        HashMap<Integer, String> stats = new HashMap<>();
-        stats.put(RecordFields.DATE_FIELD.getValue(),"date-");
-        stats.put(RecordFields.PLATFORM_FIELD.getValue(),"platform-");
-        stats.put(RecordFields.BROWSER_FIELD.getValue(),"browser-");
-        stats.put(RecordFields.OS_FIELD.getValue(),"os-");
-        stats.put(RecordFields.REFERER_FIELD.getValue(),"referer-");
-        stats.put(RecordFields.ITEM_FIELD.getValue(),"item-");
-        stats.put(RecordFields.PRICE_FIELD.getValue(),"price-");
-
-        Iterator<Map.Entry<Integer,String>> stat = stats.entrySet().iterator();
+        Iterator<Map.Entry<Integer,String>> stat = new StorePairFields().getValues();
         List<String> historicalStores = new ArrayList<>();
         while(stat.hasNext()){
             Map.Entry<Integer,String> pair = stat.next();
