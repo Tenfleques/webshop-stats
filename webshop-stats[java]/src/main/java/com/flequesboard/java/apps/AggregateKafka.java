@@ -54,8 +54,8 @@ class AggregateKafka {
         //expose the available REST endpoints
         StringBuilder info = new StringBuilder("\n" +
                 "*available endpoints :\n");
-
         Iterator<Map.Entry<Integer,String>> stat = new StorePairFields().getValues();
+
         List<String> historicalStores = new ArrayList<>();
         while(stat.hasNext()){
             Map.Entry<Integer,String> pair = stat.next();

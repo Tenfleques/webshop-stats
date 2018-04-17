@@ -33,6 +33,7 @@ public class RedisSink {
         //example storeName = date-sales
         //st[1] = hits | sales | revenue
         String[] st = storeName.split("-");
+
         StorePairFields stats = new StorePairFields();
 
         switch(st[1]){
