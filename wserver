@@ -1,0 +1,12 @@
+#!/bin/bash
+
+export KAFKA_HOME=/home/blackjack/dev/apache/kafka_2.11-1.0.1
+export ZOOKEEPER_HOME=/home/blackjack/dev/apache/kafka_2.11-1.0.1/
+export WSERVER_HOME=/home/blackjack/dev/apache/kafka_2.11-1.0.1/apps/webshop-stats/dist/
+
+
+nohup $KAFKA_HOME/bin/zookeeper-server-start.sh $KAFKA_HOME/config/zookeeper.properties > /dev/null 2>&1 &
+sleep 2
+nohup $KAFKA_HOME/bin/kafka-server-start.sh $KAFKA_HOME/config/server.properties > /dev/null 2>&1 &
+sleep 2
+nohup java -jar $WSERVER_HOME/app/server $WSERVER_HOME/app/config.json > /dev/null 2>&1 
